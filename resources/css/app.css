@@ -1,0 +1,44 @@
+
+#app {
+    background-color: #684b40;
+    height: max(100vh, 500px);
+    padding: 2rem;
+    font-family: 'Pangolin';
+}
+#board {
+    background-image: url('./../images/bg/board.png');
+    height: 100%;
+    background-size: cover;
+}
+h1 {
+    font-size: 5em;
+}
+.page-title {
+    color: #fff;
+    text-align: center;
+}
+input:focus,button:focus,a:focus {
+    outline: none;
+}
+
+#page-content .auth-form {
+    margin: 0 auto;
+    width: min(100%, 30rem);
+    margin-top: 5rem;
+    padding: 0  3rem;
+}
+#page-content .auth-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 2rem;;
+    border-radius: .5rem;
+    padding-left: 3rem;
+}
+
+.btn-primary {
+    padding: .1rem 2rem;
+    font-size: 2rem;
+    background-color: #ff8f3d;
+    border: 2px solid #ff7f21;
+}
