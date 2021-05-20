@@ -54,7 +54,7 @@
 
                     <div class="col-lg-6 col-md-6 mt-lg-5 mt-md-4">
                         <div class="pt-2">
-                            <img src="{{ asset('/landing/images/illustration-img/go.png') }}" alt="" class="subject-go-img">
+                        <img src="{{ asset('/landing/images/illustration-img/go.png') }}" alt="" class="subject-go-img">
                             <div>
                                 <a href="/dasar-aljabar"
                                     class="subject-btn subject-btn-konsep-aljabar rounded-0 pt-2 pr-4 pb-2 pl-4">Konsep

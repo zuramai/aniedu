@@ -181,7 +181,7 @@
             class="form-of-operation-go-img img-fluid position-absolute">
 
         <div class="btn-test-wrapper text-center">
-            <a href="" class="btn-test rounded-0 pt-0 pr-4 pb-0 pl-4">Test</a>
+            <a href="{{ url('sign-up') }}" class="btn-test rounded-0 pt-0 pr-4 pb-0 pl-4">Test</a>
         </div>
 
         <img src="{{ asset('landing/images/shapes-img/first-border.png') }}" alt=""
