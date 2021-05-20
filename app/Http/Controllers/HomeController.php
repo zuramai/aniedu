@@ -10,11 +10,21 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function aboutAndContact() {
+        return view('aboutAndContact');
+    }
+    
+    public function dasarAljabar() {
+        return view('dasarAljabar');
+    }
+    
+    public function konversiPecahan() {
+        return view('konversiPecahan');
+    }
+
+
     public function konsepAljabar() {
 
     }
 
-    public function konversiPecahan() {
-
-    }
 }

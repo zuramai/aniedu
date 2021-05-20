@@ -1,0 +1,1211 @@
+/* CSS For Max-width 352px) */
+@media (max-width: 352px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 18px;
+    }
+
+    /* Jumbotron height for extra small device */
+    .jumbotron {
+        height: 350px;
+    }
+
+    .jumbotron-homepage-img {
+        width: 450px;
+        margin-top: 15px;
+    }
+
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    /* index.html : Jumbotron */
+    .scroll-down {
+        margin-top: -75px;
+    }
+
+    .scroll-down-icon-img {
+        width: 100px;
+    }
+
+    /* index.html : Subject */
+    .subject-img {
+        width: 85vw;
+    }
+
+    .subject-go-img {
+        width: 85px;
+        margin-left: 215px;
+        margin-bottom: -35px;
+    }
+
+    .subject-scribbles-img {
+        width: 150px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact {
+        height: 900px;
+    }
+
+    .socmed {
+        font-size: 18px;
+    }
+
+    .about-and-contact-triangle {
+        width: 150px;
+        margin-left: 135px !important;
+        margin-top: 15px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 70px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+    /* Jumbotron Dasar Aljabar */
+    .jumbotron-dasar-aljabar-img {
+        width: 300px;
+        margin-top: 45px;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part One) */
+    .do-you-know-girl-img {
+        width: 100%;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two)*/
+    .do-you-know-boy-with-ruler-img {
+        width: 100%;
+    }
+
+    .do-you-know-scribbles-img-top {
+        margin-top: -120px;
+    }
+
+    .do-you-know-scribbles-img-bottom {
+        margin-top: 20px;
+    }
+
+    /* dasar-aljabar.html : Form Of Operation */
+    .form-of-operation {
+        background-size: cover;
+    }
+
+    .form-of-operation-heading-border-bottom {
+        width: 255px;
+    }
+
+    .form-of-operation-bottom-line-one {
+        display: none;
+    }
+
+    .form-of-operation-bottom-line-two {
+        margin-top: -20px;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: -100px;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-go-img {
+        width: 75px;
+        margin-left: 210px;
+        margin-top: -45px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 185px;
+        margin-top: 25px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    .jumbotron-konversi-pecahan-img {
+        width: 95vw;
+        margin-top: 30px;
+    }
+
+    /* konversi-pecahan.html : Pecahan Do You Know */
+    .pecahan-do-you-know-ruler-img {
+        width: 120px;
+    }
+
+    .pecahan-do-you-know-img {
+        width: 80vw;
+        margin-top: 25px;
+    }
+
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert {
+        height: 900px;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        margin-top: -65px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        margin-top: 60px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 45px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-top: 20px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 60px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 30px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 20px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 150px;
+        margin-top: -65px;
+    }
+}
+
+/* ==== Extra small devices (portrait phones, min-width 353px and max-width 575.98px) ==== */
+@media (min-width: 353px) and (max-width: 580px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 19px;
+    }
+
+    /* Jumbotron height for extra small device */
+    .jumbotron {
+        height: 350px;
+    }
+
+    .jumbotron-homepage-img {
+        width: 95vw;
+        margin-top: 35px;
+    }
+
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    /* index.html : Jumbotron */
+    .scroll-down {
+        margin-top: -50px;
+    }
+
+    .scroll-down-icon-img {
+        width: 100px;
+    }
+
+    /* index.html : Subject */
+    .subject-img {
+        width: 85vw;
+    }
+
+    .subject-go-img {
+        width: 100px;
+        margin-left: 225px;
+        margin-bottom: -35px;
+    }
+
+    .subject-scribbles-img {
+        width: 150px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact {
+        height: 880px;
+    }
+
+    .socmed {
+        font-size: 19px;
+    }
+
+    .about-and-contact-triangle {
+        width: 160px;
+        margin-left: 165px !important;
+        margin-top: 15px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 60px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+    /* Jumbotron Dasar Aljabar */
+    .jumbotron-dasar-aljabar-img {
+        width: 90vw;
+        margin-top: 30px;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part One) */
+    .do-you-know-girl-img {
+        width: 85vw;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two)*/
+    .do-you-know-scribbles-img-top {
+        margin-top: -120px;
+    }
+
+    .do-you-know-scribbles-img-bottom {
+        margin-top: 20px;
+    }
+
+    .do-you-know-boy-with-ruler-img {
+        width: 85vw;
+        margin: auto;
+    }
+
+    /* dasar-aljabar.html : Form Of Operation */
+    .form-of-operation {
+        background-size: cover;
+    }
+
+    .form-of-operation-heading-border-bottom {
+        width: 255px;
+    }
+
+    .form-of-operation-bottom-line-one {
+        display: none;
+    }
+
+    .form-of-operation-bottom-line-two {
+        margin-top: -20px;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: -100px;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-go-img {
+        width: 75px;
+        margin-left: 245px;
+        margin-top: -45px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 240px;
+        margin-top: 25px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    /* Jumbotron konversi pecahan */
+    .jumbotron-konversi-pecahan-img {
+        width: 95vw;
+        margin-top: 30px;
+    }
+
+    /* konversi-pecahan.html : Pecahan Do You Know */
+    .pecahan-do-you-know {
+        height: 950px;
+    }
+
+    .pecahan-how-to-convert {
+        height: 970px;
+    }
+
+    .pecahan-do-you-know-ruler-img {
+        width: 120px;
+    }
+
+    .pecahan-do-you-know-img {
+        width: 80vw;
+        margin-top: 25px;
+    }
+
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert-scribbles-top {
+        margin-top: -65px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        margin-top: 135px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 45px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-top: 15px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 60px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 30px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 20px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 200px;
+        margin-top: -65px;
+    }
+}
+
+/* ==== CSS For Width 425px ==== */
+@media (min-width: 410px) and (max-width: 570px) {
+
+    /* dasar-aljabar.html : Form of Operation */
+    .form-of-operation-go-img {
+        width: 75px;
+        margin-left: 245px;
+        margin-top: -45px;
+    }
+
+    /* ==== konversi-pecahan.html : How To Convert */
+    .pecahan-how-to-convert {
+        height: 825px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 155px;
+        margin-top: -70px;
+    }
+}
+
+/* ==== CSS For Width 575px ==== */
+@media (width: 575px) {
+
+    /* ==== konversi-pecahan.html : How To Convert */
+    .pecahan-how-to-convert {
+        height: 800px;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        margin-top: -40px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        margin-top: 100px !important;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 200px;
+        margin-top: -85px;
+    }
+}
+
+/* ==== Small devices (landscape phones, 576px and up) ==== */
+@media (min-width: 480px) and (max-width: 767.98px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 19px;
+    }
+
+    /* Jumbotron height for extra small device */
+    .jumbotron {
+        height: 400px;
+    }
+
+    .jumbotron-homepage-img {
+        width: 500px;
+    }
+
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    /* index.html : Jumbotron */
+    .scroll-down {
+        margin-top: -75px;
+    }
+
+    .scroll-down-icon-img {
+        width: 100px;
+    }
+
+    /* index.html : Subject */
+    .subject-img {
+        width: 400px;
+        object-fit: cover;
+    }
+
+    .subject-go-img {
+        width: 100px;
+        margin-left: 225px;
+        margin-bottom: -35px;
+    }
+
+    .subject-scribbles-img {
+        width: 150px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact {
+        height: 850px;
+    }
+
+    .socmed {
+        font-size: 19px;
+    }
+
+    .about-and-contact-triangle {
+        width: 160px;
+        margin-left: 165px !important;
+        margin-top: 15px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 60px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+
+    /* dasar-aljabar.html : Do You Know (Part One) */
+    .do-you-know-girl-img {
+        width: 85vw;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two)*/
+    .do-you-know-boy-with-ruler-img {
+        width: 85vw;
+    }
+
+    /* dasar-aljabar.html : Form Of Operation */
+    .form-of-operation {
+        background-size: contain;
+    }
+
+    .form-of-operation-heading-border-bottom {
+        width: 255px;
+    }
+
+    .form-of-operation-bottom-line-one {
+        display: none;
+    }
+
+    .form-of-operation-bottom-line-two {
+        margin-top: -20px;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: -80px;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-go-img {
+        width: 75px;
+        margin-left: 325px;
+        margin-top: -35px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 240px;
+        margin-top: 25px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert {
+        height: 825px;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        margin-top: -60px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        margin-top: 70px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 45px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-top: 20px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 60px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 30px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 20px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 200px;
+        margin-top: -100px;
+    }
+}
+
+/* ==== Medium devices (tablets, 768px and up) ==== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 25px;
+    }
+
+    /* Navbar */
+    .nav-menu.active::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 550px;
+    }
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    .jumbotron-homepage-img {
+        width: 95vw;
+    }
+
+    .scroll-down {
+        margin-top: -90px;
+    }
+
+    .scroll-down-icon-img {
+        width: 125px;
+    }
+
+    /* index.html : Subject */
+    .subject-img {
+        width: 350px;
+    }
+
+    .subject-go-img {
+        width: 100px;
+        margin-left: 225px;
+        margin-bottom: -35px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact-triangle {
+        width: 160px;
+        margin-left: 80px;
+        margin-top: 15px;
+    }
+
+    .socmed {
+        font-size: 25px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 55px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+    /* dasar-aljabar.html : Jumbotron */
+    .jumbotron-dasar-aljabar-img {
+        width: 80vw;
+        object-fit: cover;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part One) */
+    .do-you-know-girl-img {
+        width: 300px;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two) */
+    .do-you-know-part-two {
+        height: 835px;
+    }
+
+    .do-you-know-scribbles-img-top {
+        width: 250px;
+        margin-top: -120px;
+    }
+
+    .do-you-know-scribbles-img-bottom {
+        width: 250px;
+    }
+
+    .do-you-know-boy-with-ruler-img {
+        width: 380px;
+        margin-top: 55px;
+    }
+
+    .form-of-operation-triangle-img {
+        margin-top: -100px !important;
+    }
+
+    .form-of-operation-bottom-line-one {
+        display: none;
+    }
+
+    .form-of-operation-bottom-line-two {
+        margin-top: -20px;
+    }
+
+    /* dasar-aljabar.html : Form of Operation */
+    .form-of-operation {
+        background-size: contain;
+    }
+
+    .form-of-operation-heading-border-bottom {
+        width: 270px;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: 55px;
+        display: none;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 600px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-go-img {
+        width: 100px;
+        margin-left: 425px;
+        margin-top: -50px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    .pecahan-how-to-convert {
+        height: 950px;
+    }
+
+    /* konversi-pecahan.html : Jumbotron */
+    .jumbotron-konversi-pecahan-img {
+        width: 90vw;
+        margin-top: 10px;
+        margin: auto !important;
+    }
+
+    /* konversi-pecahan.html : Pecahan Do You Know */
+    .pecahan-do-you-know {
+        height: 700px;
+    }
+
+    .pecahan-do-you-know-ruler-img {
+        width: 150px;
+        margin-right: 30px;
+        margin-top: -100px;
+    }
+
+    .pecahan-do-you-know-content {
+        padding-top: 15px;
+    }
+
+    .pecahan-do-you-know-img {
+        width: 355px;
+        margin-top: 25px;
+    }
+
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert {
+        height: 800px;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        width: 300px;
+        margin-top: -75px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        width: 300px;
+        margin-top: -5px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 75px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-top: 25px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 55px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 27px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 15px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 260px;
+    }
+}
+
+/* ==== Large devices (desktops, 992px and up) ==== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 25px;
+    }
+
+    /* Navbar */
+    .nav-menu.active::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    /* index.html : Jumbotron Homepage */
+    .jumbotron {
+        height: 565px;
+    }
+
+    .scroll-down {
+        margin-top: -100px;
+    }
+
+    .scroll-down-icon-img {
+        width: 125px;
+    }
+
+    .subject-img {
+        width: 415px;
+        object-fit: cover;
+    }
+
+    .subject-go-img {
+        width: 115px;
+        margin-left: 230px;
+        margin-bottom: -40px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact {
+        height: 550px;
+    }
+
+    .socmed {
+        font-size: 25px;
+    }
+
+    .about-and-contact-triangle {
+        width: 175px;
+        margin-left: 150px !important;
+        margin-top: 15px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 60px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+    /* dasar-aljabar.html : Jumbotron Dasar Aljabar */
+    .jumbotron-dasar-aljabar-img {
+        width: 75vw;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part One)*/
+    .do-you-know-girl-img {
+        width: 400px;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two)*/
+    .do-you-know-scribbles-img-top {
+        margin-top: -125px;
+        width: 300px;
+    }
+
+    .do-you-know-scribbles-img-bottom {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .do-you-know-part-two-square-img {
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        padding-top: 50px;
+        padding-left: 65px;
+    }
+
+    .do-you-know-content-text {
+        padding-top: 30px;
+    }
+
+    .do-you-know-boy-with-ruler-img {
+        width: 455px;
+        margin-left: 50px;
+    }
+
+    /* dasar-aljabar.html : Form Of Operation */
+    .form-of-operation {
+        background-size: contain;
+    }
+
+    .form-of-operation-heading-border-bottom {
+        width: 255px;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 600px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: 160px;
+    }
+
+    .form-of-operation-go-img {
+        width: 100px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 300px;
+    }
+
+    /* Top Footer */
+    .top-footer-about-content-wrapper {
+        padding-left: 90px;
+    }
+
+    .top-footer-contact-content-wrapper {
+        font-size: 30px;
+        padding-left: 110px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    /* Jumbotron */
+    .jumbotron-konversi-pecahan-img {
+        width: 80vw;
+    }
+    
+    /* konversi-pecahan.html : Do You Know */
+    .pecahan-do-you-know {
+        height: 650px;
+    }
+
+    .pecahan-do-you-know-ruler-img {
+        width: 150px;
+        margin-right: 90px;
+        margin-top: -100px;
+    }
+
+    .pecahan-do-you-know-content {
+        padding-top: 15px;
+    }
+
+    .pecahan-do-you-know-img {
+        width: 415px;
+    }
+
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert {
+        height: 770px;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        width: 300px;
+        margin-top: -80px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 55px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-left: 14px;
+        padding-top: 15px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 75px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 45px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 25px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        display: flex;
+        width: 300px;
+        float: right;
+        margin-top: 20px;
+    }
+}
+
+/* ==== Extra large devices (large desktops, 1200px and up) ==== */
+@media (min-width: 1200px) {
+
+    /* ==== CSS FOR ALL PAGE ==== */
+    p {
+        font-size: 25px;
+    }
+
+    /* Navbar */
+    .nav-menu.active::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    /* Jumbotron height for all page */
+    .jumbotron {
+        height: 700px !important;
+    }
+
+    /* ==== CSS FOR INDEX.HTML ==== */
+    /* index.html : Jumbotron Homepage */
+    .jumbotron-homepage-img {
+        width: 70vw;
+        margin-top: 30px;
+    }
+
+    .scroll-down {
+        margin-top: -95px;
+    }
+
+    .scroll-down-icon-img {
+        width: 125px;
+    }
+
+    .subject-img {
+        width: 415px;
+        object-fit: cover;
+    }
+
+    .subject-go-img {
+        width: 115px;
+        margin-left: 230px;
+        margin-bottom: -40px;
+    }
+
+    /* index.html : About and Contact */
+    .about-and-contact {
+        height: 550px;
+    }
+
+    .socmed {
+        font-size: 25px;
+    }
+
+    .about-and-contact-triangle {
+        width: 200px;
+        margin-left: 200px !important;
+        margin-top: 15px;
+    }
+
+    /* index.html : Footer */
+    .footer {
+        height: 60px;
+    }
+
+    /* ==== CSS FOR DASAR-ALJABAR.HTML ==== */
+    /* dasar-aljabar.html : Jumbotron Dasar Aljabar */
+    .jumbotron-dasar-aljabar-img {
+        width: 70vw;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part One)*/
+    .do-you-know-girl-img {
+        width: 400px;
+    }
+
+    /* dasar-aljabar.html : Do You Know (Part Two)*/
+    .do-you-know-scribbles-img-top {
+        margin-top: -125px;
+        width: 300px;
+    }
+
+    .do-you-know-scribbles-img-bottom {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .do-you-know-part-two-square-img {
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        padding-top: 50px;
+        padding-left: 65px;
+    }
+
+    .do-you-know-content-text {
+        padding-top: 30px;
+    }
+
+    .do-you-know-boy-with-ruler-img {
+        width: 525px;
+    }
+
+    /* dasar-aljabar.html : Form Of Operation */
+    .form-of-operation-heading-border-bottom {
+        width: 255px;
+    }
+
+    .form-of-operation-rectangle-img {
+        width: 600px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .form-of-operation-triangle-img {
+        width: 200px;
+        margin-top: 160px;
+    }
+
+    .form-of-operation-go-img {
+        width: 100px;
+        margin-left: 640px;
+        margin-top: -45px;
+    }
+
+    .form-of-operation-border-bottom-img {
+        width: 300px;
+    }
+
+    /* Top Footer */
+    .top-footer-about-content-wrapper {
+        padding-left: 120px;
+    }
+
+    .top-footer-contact-content-wrapper {
+        font-size: 30px;
+        padding-left: 110px;
+    }
+
+    /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
+    /* Jumbotron */
+    .jumbotron-konversi-pecahan-img {
+        width: 70vw;
+    }
+
+    /* konversi-pecahan.html : Pecahan Do You Know */
+    .pecahan-do-you-know {
+        height: 650px;
+    }
+
+    .pecahan-do-you-know-ruler-img {
+        width: 150px;
+        margin-right: 215px;
+        margin-top: -100px;
+    }
+
+    .pecahan-do-you-know-content {
+        padding-top: 15px;
+    }
+
+    .pecahan-do-you-know-img {
+        width: 415px;
+    }
+
+    /* konversi-pecahan.html : Pecahan How To Convert */
+    .pecahan-how-to-convert {
+        height: 800px;
+        background-position: center;
+    }
+
+    .pecahan-how-to-convert-scribbles-top {
+        width: 400px;
+        margin-top: -100px;
+        margin-right: 150px;
+    }
+
+    .pecahan-how-to-convert-scribbles-bottom {
+        width: 350px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .heading-pecahan-how-to-convert {
+        padding-top: 55px;
+    }
+
+    .pecahan-how-to-convert-content {
+        padding-left: 14px;
+        padding-top: 35px;
+    }
+
+    .pecahan-bottom-1 {
+        padding-left: 75px
+    }
+
+    .pecahan-bottom-2 {
+        padding-left: 45px
+    }
+
+    .pecahan-bottom-3 {
+        padding-left: 25px;
+    }
+
+    .pecahan-how-to-convert-triangle-img {
+        width: 250px;
+        margin-top: 5px;
+    }
+}

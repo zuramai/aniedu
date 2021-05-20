@@ -19,7 +19,12 @@ use App\Http\Controllers\GameController;
 |
 */
 
+// Front page
 Route::get('/', [HomeController::class, 'home']);
+Route::get('/about-and-contact', [HomeController::class, 'aboutAndContact']);
+Route::get('/dasar-aljabar', [HomeController::class, 'dasarAljabar']);
+Route::get('/konversi-pecahan', [HomeController::class, 'konversiPecahan']);
+
 Route::get('/subject/konsep-aljabar', [HomeController::class, 'konsepAljabar']);
 Route::get('/subject/konversi-pecahan', [HomeController::class, 'konversiPecahan']);
 
