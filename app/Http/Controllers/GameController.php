@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class GameController extends Controller
 {
@@ -10,10 +12,17 @@ class GameController extends Controller
         return view('game.index');
     }
     public function chooseGender() {
-
+        if(Auth::user()->gender) return redirect()->route('game.home');
+        return view('game.choose-gender');
     }
-    public function setGender() {
+    public function setGender(Request $request) {
+        $gender = $request->gender;
 
+        $user = User::find(Auth::user()->id);
+        $user->gender = $gender;
+        $user->save();
+
+        return redirect()->route('game.home');
     }
     
     public function achievements() {

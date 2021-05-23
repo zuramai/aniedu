@@ -125,6 +125,15 @@ input:focus, button:focus, a:focus {
   background-size: contain;
 }
 
+.page-choose-gender img {
+  height: 50rem;
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+.page-choose-gender button:hover img {
+  transform: scale(1.05) translateY(-10px);
+}
+
 .btn-primary {
   padding: 0.1rem 2rem;
   font-size: 2rem;
