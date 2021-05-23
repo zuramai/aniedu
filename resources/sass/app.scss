@@ -63,7 +63,11 @@ input:focus,button:focus,a:focus {
 .page-topbar {
     display: flex;
     justify-content: space-between;
-    
+    .user__avatar {
+        img {
+            object-fit: contain;
+        }
+    }
     .user-gold {
         display: flex;
         font-weight: bold;

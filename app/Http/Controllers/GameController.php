@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Models\Play;
+use App\Models\Purchase;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Question;
+use App\Models\ShopItem;
 use App\Models\UserChoiceAnswer;
 
 class GameController extends Controller
@@ -92,7 +94,47 @@ class GameController extends Controller
     public function shop() {
         return view('game.shop');   
     }
-    public function buy() {
+    public function buy(Request $request) {
+        $item = ShopItem::findOrFail($request->item);
 
+        // check balance
+        $user = User::find(Auth::user()->id);
+        if(Auth::user()->gold < $item->price) return redirect()->back()->with('error', 'Gold tidak cukup');
+
+        $count_user_buy = Purchase::where('user_id', Auth::user()->id)->where('shop_item_id', $item->id)->count();
+        
+        // check max buy
+        if($count_user_buy >= $item->max_buy) return redirect()->back()->with('error', 'Tidak dapat melebihi maksimum pembelian');
+
+        if($item->id == 1) {
+            // nyawa dibeli
+            $user->nyawa++;
+        } else if($item->id == 2) {
+            // 30 detik time dibeli
+        } else if($item->id == 3) {
+            $user->avatar_url = "2.png";
+        } else if($item->id == 4) {
+            $user->avatar_url = "4.png";
+        } else if($item->id == 5) {
+            $user->avatar_url = "5.png";
+        } 
+
+
+        $purchase = Purchase::create([
+            'shop_item_id' => $item->id,
+            'user_id'=> $user->id,
+            'price' => $item->price,
+            'gold_from' => $user->gold,
+            'gold_to' => $user->gold-$item->price
+        ]);
+        
+        $user->gold -= $item->price;
+        $user->save();
+
+        if($item->id == 6) {
+            return redirect(asset('/files/sticker_pack_2.zip'));
+        }
+        
+        return redirect()->back()->with('success','Sukses membeli '.$item->name);
     }
 }

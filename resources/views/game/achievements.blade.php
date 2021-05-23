@@ -65,7 +65,8 @@
                 </div>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement  {{ $play_count >= 50 ? 'unlocked' : '' }}">
+                <div class="achievement achievement-file   {{ $play_count >= 50 ? 'unlocked' : '' }}" >
+                    <a href="{{ asset('files/sticker_pack_2.zip') }}" target="_blank" class="hidden" id="download_link"></a>
                     <img src="{{ asset('images/achievement/6.png') }}" class='achievement-image mx-auto'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
@@ -82,4 +83,14 @@
 <a href="{{ route('game.home') }}" class='fixed right-16 bottom-16'>
     <img src="{{ asset('images/scribble/back.png') }}" alt="Go back" title="Go back">
 </a>
+
 @endsection
+@push('scripts')
+
+<script>
+let achievement_file = document.querySelector('.achievement-file.unlocked');
+achievement_file.addEventListener('click', function() {
+    document.getElementById('download_link').click();
+});
+</script>
+@endpush
