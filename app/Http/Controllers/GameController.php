@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Question;
 use App\Models\ShopItem;
 use App\Models\UserChoiceAnswer;
+use Illuminate\Support\Facades\DB;
 
 class GameController extends Controller
 {
@@ -89,7 +90,8 @@ class GameController extends Controller
         return view('game.achievements', compact('play_count'));
     }
     public function leaderboard() {
-        return view('game.leaderboard');   
+        $plays = Play::with('user')->select(DB::raw('MAX(score) as max_score'), 'user_id','score')->where('type', 'normal')->orderBy('max_score','desc')->groupBy('user_id')->take(10)->get();
+        return view('game.leaderboard', compact('plays'));   
     }
     public function shop() {
         return view('game.shop');   
