@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Play extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'type',
+        'score',
+    ];
+
+    public function user_choice_answers() {
+        return $this->hasMany(UserChoiceAnswer::class);
+    }
 }

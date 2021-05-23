@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\ShopItem;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -17,7 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UserSeeder::class,
             QuestionSeeder::class,
-            ChoicesSeeder::class
+            ChoicesSeeder::class,
+            ShopItemSeeder::class
         ]);
     }
 }

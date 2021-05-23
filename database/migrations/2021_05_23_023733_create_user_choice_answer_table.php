@@ -13,9 +13,9 @@ class CreateUserChoiceAnswerTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_choice_answer', function (Blueprint $table) {
+        Schema::create('user_choice_answers', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('play_id')->constrained('plays');
+            $table->foreignId('play_id')->constrained('plays')->onDelete('cascade');
             $table->foreignId('choice_id')->constrained('question_choices');
             $table->boolean('is_correct')->nullable();
             $table->timestamps();

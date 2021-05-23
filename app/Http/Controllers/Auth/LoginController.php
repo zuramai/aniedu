@@ -18,8 +18,10 @@ class LoginController extends Controller
             'password' => 'required'
         ]);
 
-        if($user = Auth::attempt(['name' => $request->name, 'password' => $request->password])) {
-
+        if(Auth::attempt(['name' => $request->name, 'password' => $request->password])) {
+            return redirect()->route('game.home'); 
         }
+
+        return redirect()->back();
     }
 }

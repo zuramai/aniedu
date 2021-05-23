@@ -47,6 +47,9 @@ Route::group(['prefix' => '/game', 'middleware' => 'auth'], function() {
     Route::get('/achievements', [GameController::class, 'achievements'])->name('game.achievement');
     Route::get('/leaderboard', [GameController::class, 'leaderboard'])->name('game.leaderboard');
 
+    Route::get('/play', [GameController::class, 'play'])->name('game.play');
+    Route::get('/minigames', [GameController::class, 'minigames'])->name('game.minigames');
+
     Route::get('/shop', [GameController::class, 'shop'])->name('game.shop');
     Route::post('/shop', [GameController::class, 'buy'])->name('game.buy');
 });

@@ -20,10 +20,10 @@
                 </div>
                 <div class="w-1/2">
                     <div class="text-right mt-32">
-                        <h1 class='text-white'>Welcome, User 12345</h1>
+                        <h1 class='text-white'>Welcome, {{ Auth::user()->name }}</h1>
                         <h1 class='text-4xl text-gray-300'>Let's Play</h1>
                         
-                        <a href="#" class='btn btn-primary mt-48 inline-block'>Start</a>
+                        <a href="{{ route('game.play') }}" class='btn btn-primary mt-48 inline-block'>Start</a>
                     </div>
                 </div>
             </div>

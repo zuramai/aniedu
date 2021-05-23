@@ -77,7 +77,7 @@
 
     <!-- About and Contact -->
     <section class="about-and-contact" id="about-and-contact"
-        style="background-image: url({{ asset('/landing/images/background-img/bg-about-and-contact.jpg') }} );">
+        style="background-image: url({{ asset('/landing/images/background-img/bg-about-and-contact.jpg') }});">
         <div class="container">
             <div class="row pt-3">
 

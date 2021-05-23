@@ -2,9 +2,16 @@
 
 @section('content')
 
-<div class="page-achievement">
+<div class="page-shop">
+    <div class="page-topbar">
+        <div></div>
+        <div class="user-gold">
+            <img src="{{ asset('images/illustration/gold_icon.png') }}" alt="Gold icon">
+            <h5 class='user-gold-value'>{{ Auth::user()->gold }}</h5>
+        </div>
+    </div>
     <div class="container mx-auto">
-        <h1 class="page-title">Shop</h1>
+        <h1 class="page-title">SHOP</h1>
 
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
@@ -72,7 +79,7 @@
         </div>
     </div>
 </div>
-<a href="{{ route('game.home') }}" class='fixed right-16 bottom-16'>
+<a href="{{ route('game.home') }}" class='fixed right-16 bottom-16 z-10'>
     <img src="{{ asset('images/scribble/back.png') }}" alt="Go back" title="Go back">
 </a>
 @endsection

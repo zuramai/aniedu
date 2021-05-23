@@ -16,9 +16,10 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::insert([
-            'name' => 'Ahmad Saugi',
-            'email' => 'ahmadsaugigis@gmail.com',
+            'name' => 'Budi',
+            'email' => 'budi@gmail.com',
             'password' => Hash::make("asdasd"),
+            'avatar_url' => '1.png'
         ]);  
     }
 }
