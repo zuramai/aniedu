@@ -21,11 +21,13 @@ class SignUpController extends Controller
             'password' => 'required|min:6'
         ]);
 
-        $user = User::create([
+        $data = [
             'email' => $request->email,
             'name' => $request->name,
             'password' => $request->password,
-        ]);
+        ];
+
+        $user = User::create($data);
 
         Auth::login($user);
 

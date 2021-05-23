@@ -20,10 +20,10 @@ class GameController extends Controller
         return view('game.achievements');
     }
     public function leaderboard() {
-        
+        return view('game.leaderboard');   
     }
     public function shop() {
-
+        return view('game.shop');   
     }
     public function buy() {
 

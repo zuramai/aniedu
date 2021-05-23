@@ -39,7 +39,7 @@ Route::post('sign-up', [SignUpController::class, 'signUpPost']);
 Route::post('logout', [AuthController::class, 'logout']);
 
 
-Route::group(['prefix' => '/game'], function() {
+Route::group(['prefix' => '/game', 'middleware' => 'auth'], function() {
     Route::get('/choose-gender', [GameController::class, 'chooseGender'])->name('game.chooseGender');
     Route::post('/choose-gender', [GameController::class, 'setGender']);
 
