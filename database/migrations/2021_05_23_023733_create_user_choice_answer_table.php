@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateQuestionsTable extends Migration
+class CreateUserChoiceAnswerTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateQuestionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('questions', function (Blueprint $table) {
+        Schema::create('user_choice_answer', function (Blueprint $table) {
             $table->id();
-            $table->enum('type', ['Aljabar', 'Pecahan']);
-            $table->text('question');
+            $table->foreignId('play_id')->constrained('plays');
+            $table->foreignId('choice_id')->constrained('question_choices');
+            $table->boolean('is_correct')->nullable();
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreateQuestionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('questions');
+        Schema::dropIfExists('user_choice_answer');
     }
 }

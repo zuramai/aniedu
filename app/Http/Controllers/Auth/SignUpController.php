@@ -31,7 +31,7 @@ class SignUpController extends Controller
 
         Auth::login($user);
 
-        return redirect('/game/home');
+        return redirect('/game/choose-gender');
 
     }
 }
