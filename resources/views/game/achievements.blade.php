@@ -8,7 +8,7 @@
 
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement unlocked">
+                <div class="achievement {{ $play_count >= 5 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/1.JPG') }}" class='achievement-image'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement unlocked">
+                <div class="achievement {{ $play_count >= 15 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/2.JPG') }}" class='achievement-image'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement unlocked">
+                <div class="achievement {{ $play_count >= 20 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/3.JPG') }}" class='achievement-image'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
@@ -43,7 +43,7 @@
         </div>
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement ">
+                <div class="achievement {{ $play_count >= 25 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/4.JPG') }}" class='achievement-image'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
@@ -54,18 +54,18 @@
                 </div>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement ">
+                <div class="achievement {{ $play_count >= 30 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/5.JPG') }}" class='achievement-image'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">
                         <div class="text-white absolute text-center w-full bottom-10 text-2xl">
-                            <h4>Play 50x to unlock</h4>
+                            <h4>Play 30x to unlock</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 md:w-1/3 p-5">
-                <div class="achievement  bg-white">
+                <div class="achievement  {{ $play_count >= 50 ? 'unlocked' : '' }}">
                     <img src="{{ asset('images/achievement/6.png') }}" class='achievement-image mx-auto'>
                     <div class="locked">
                         <img src="{{ asset('images/scribble/lock.png') }}" alt="Locked">

@@ -40,9 +40,12 @@ Route::post('logout', [AuthController::class, 'logout']);
 
 
 Route::group(['prefix' => '/game', 'middleware' => 'auth'], function() {
+    Route::get('/', function() {
+        return redirect()->route('game.home');
+    });
     Route::get('/choose-gender', [GameController::class, 'chooseGender'])->name('game.chooseGender');
     Route::post('/choose-gender', [GameController::class, 'setGender']);
-
+    
     Route::get('/home', [GameController::class, 'home'])->name('game.home');
     Route::get('/achievements', [GameController::class, 'achievements'])->name('game.achievement');
     Route::get('/leaderboard', [GameController::class, 'leaderboard'])->name('game.leaderboard');

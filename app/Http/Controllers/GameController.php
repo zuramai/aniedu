@@ -47,7 +47,7 @@ class GameController extends Controller
     }
 
     public function minigames(Request $request) {
-
+        return view('game.minigames');
     }
 
     public function storeAnswers(Request $request) {
@@ -56,6 +56,7 @@ class GameController extends Controller
         $new_answers = [];
 
         $score = collect($answers)->where('is_correct',1)->count() * 10;
+        
         $play = Play::create([
             'type' => 'normal',
             'score' => $score,
@@ -68,13 +69,22 @@ class GameController extends Controller
             $i++;
         }
 
+
+        // Add gold if the score is 100
+        if($score == 100) {
+            $user = User::find(Auth::user()->id);
+            $user->gold += 50;
+            $user->save();
+        }
+
         $insert = UserChoiceAnswer::insert($answers);
         
         return response()->json(['success' => true,'answers' => $answers]);
     }
     
     public function achievements() {
-        return view('game.achievements');
+        $play_count = Play::where('user_id', Auth::user()->id)->where('type','normal')->count();
+        return view('game.achievements', compact('play_count'));
     }
     public function leaderboard() {
         return view('game.leaderboard');   
