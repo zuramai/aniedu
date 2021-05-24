@@ -16,7 +16,7 @@
                                     <span class="number mr-12">{{ $loop->iteration }}.</span>
                                     {{ $play->user->name }}
                                 </h5>
-                                <h5 class='score'>{{ $play->score }}</h5>
+                                <h5 class='score'>{{ $play->max_score }}</h5>
                             </div>
                         </li>
                     @endforeach

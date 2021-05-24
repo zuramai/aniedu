@@ -50,7 +50,8 @@ class GameController extends Controller
     }
 
     public function minigames(Request $request) {
-        return view('game.minigames');
+        $lastPlay = Play::where('type','normal')->where('user_id',Auth::user()->id)->orderBy('created_at','desc')->first();
+        return view('game.minigames', compact('lastPlay'));
     }
 
     public function storeAnswers(Request $request) {
@@ -73,16 +74,33 @@ class GameController extends Controller
         }
 
 
+        $insert = UserChoiceAnswer::insert($answers);
+        
+        return response()->json(['success' => true,'answers' => $answers]);
+    }
+
+    public function storeMinigames(Request $request) {
+        $user = User::find($request->user_id);
+        $score = $request->score;
+
+        $lastPlay = Play::where('user_id', $user->id)->where('type', 'normal')->orderBy('id','desc')->first();
+
+        if($lastPlay) {
+            $lastPlay->score += $score;
+            $lastPlay->save();
+        }else{
+            Play::create(['user_id' => $user->id, 'type' => 'normal','score' => $score]);
+        }
+
+
         // Add gold if the score is 100
-        if($score == 100) {
-            $user = User::find(Auth::user()->id);
+        if($lastPlay->score >= 100) {
             $user->gold += 50;
             $user->save();
         }
 
-        $insert = UserChoiceAnswer::insert($answers);
+        return response()->json(['success' => true, 'score' => $score], 201);
         
-        return response()->json(['success' => true,'answers' => $answers]);
     }
     
     public function achievements() {

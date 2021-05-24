@@ -9,6 +9,7 @@
   min-height: 100vh;
   padding: 3rem;
   background-size: cover;
+  position: relative;
 }
 
 h1 {

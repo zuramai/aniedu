@@ -25,6 +25,7 @@ class SignUpController extends Controller
             'email' => $request->email,
             'name' => $request->name,
             'password' => $request->password,
+            'avatar_url' => '1.png'
         ];
 
         $user = User::create($data);
