@@ -31,48 +31,7 @@
     <title>AniEdu Web</title>
 </head>
 
-<!-- Responsive CSS For Background Image in section .pecahan-how-to-convert -->
-<style>
-    @media (max-width: 321px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-without-square.jpg');
-        }
-    }
-
-    @media (min-width: 350px) and (max-width: 575.98px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-without-square.jpg');
-            height: 915px;
-        }
-    }
-
-    @media (min-width: 576px) and (max-width: 767.98px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-without-square.jpg');
-        }
-    }
-
-    @media (min-width: 768px) and (max-width: 991.98px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-without-square.jpg');
-            height: 570px;
-        }
-    }
-
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-without-square.jpg');
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .pecahan-how-to-convert {
-            background-image: url('assets/images/background-img/bg-image-how-to-convert-with-square.jpg');
-        }
-    }
-</style>
-
-<body data-spy="scroll" data-target="#navbar" data-offset="0">
+<body data-spy="scroll" data-target="#navbar" data-offset="0" id="konversi-pecahan">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-collapse-md navbar-dark fixed-top" id="navbar">
@@ -101,14 +60,14 @@
                             Subject
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="index.html">Home</a>
+                            <a class="dropdown-item" href="index.html">Beranda</a>
                             <a class="dropdown-item" href="dasar-aljabar.html">Konsep Dasar Aljabar</a>
                             <a class="dropdown-item" href="konversi-pecahan.html"
                                 style="background-color: #b1dfcd;">Konversi Pecahan</a>
                         </div>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white" href="">About and Contact</a>
+                        <a class="nav-link nav-menu text-white" href="about-and-contact.html">About dan Contact</a>
                     </li>
                 </ul>
             </div>
@@ -130,7 +89,7 @@
     <section class="pecahan-do-you-know pt-5 pb-5" id="do-you-know"
         style="background-image: url('assets/images/background-img/square-pattern.pn');">
         <div class="container">
-            <h1 class="heading-pecahan-do-you-know text-center color-primary pt-5">Tahukah Kalian?</h1>
+            <h1 class="heading-pecahan-do-you-know text-center color-1 pt-5">Tahukah Kalian?</h1>
             <img src="assets/images/shapes-img/second-border.png" alt=""
                 class="heading-pecahan-do-you-know-border-bottom d-flex mx-auto">
             <img src="assets/images/shapes-img/ruler.png" alt="" class="pecahan-do-you-know-ruler-img">
@@ -138,7 +97,7 @@
             <div class="pecahan-do-you-know-content">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-6 color-primary order-2 order-lg-1 order-md-1 pt-lg-3">
+                    <div class="col-lg-6 col-md-6 color-1 order-2 order-lg-1 order-md-1 pt-lg-3">
                         <p>Ada 3 macam konversi pecahan, yaitu:</p>
 
                         <p>Desimal: merupakan pecahan yang ada komanya. Contoh: 2,1</p>
@@ -204,13 +163,13 @@
     <section class="pecahan-learn-with-ani-and-edu form-of-operation pt-3 pb-5"
         style="background-image: url('assets/images/background-img/square-pattern-second.pn')">
         <div class="container">
-            <p class="color-primary pt-4 pt-lg-5 pt-md-5">Ayuk belajar bareng Ani dan Edu lewat video ini!</p>
+            <p class="color-1 pt-4 pt-lg-5 pt-md-5">Ayuk belajar bareng Ani dan Edu lewat video ini!</p>
 
             <div class="text-center d-flex justify-content-center">
                 <img src="assets/images/shapes-img/rectangle.png" alt="" class="form-of-operation-rectangle-img">
             </div>
 
-            <p class="color-primary text-center pt-4">Main Game Yuk!</p>
+            <p class="color-1 text-center pt-4">Main Game Yuk!</p>
             <img src="assets/images/illustration-img/go.png" alt=""
                 class="form-of-operation-go-img img-fluid position-absolute">
 
@@ -226,25 +185,24 @@
     </section>
 
     <!-- Top Footer -->
-    <section class="bg-color-secondary pt-5 pb-5">
+    <section class="bg-color-2 pt-5 pb-5">
         <div class="container">
             <div class="row text-center text-center">
 
                 <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                     <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                     <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-                        <a href="" class="color-secondary">Team</a>
-                        <a href="" class="color-secondary">Website</a>
+                        <a href="" class="color-2">Team</a>
+                        <a href="" class="color-2">Website</a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                     <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
-                    <div
-                        class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
+                    <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
                         <a href="" class="text-dark contact-socmed top-footer-socmed"><i
                                 class="fas fa-envelope"></i></a>
-                        <a href="" class="text-dark contact-socmed top-footer-socmed"><i
+                        <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i
                                 class="fab fa-instagram-square pl-3"></i></a>
                     </div>
                 </div>
@@ -252,7 +210,7 @@
                 <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                     <h3 class="text-lg-center text-white d-inline d-lg-block">More</h3>
                     <div class="d-flex flex-column top-footer-more-content-wrapper">
-                        <a href="" class="color-secondary">Gaming</a>
+                        <a href="" class="color-2">Gaming</a>
                     </div>
                 </div>
 

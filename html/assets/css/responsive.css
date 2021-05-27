@@ -83,6 +83,10 @@
         margin-top: -120px;
     }
 
+    .do-you-know-part-two-square-img {
+        background-image: none;
+    }
+
     .do-you-know-scribbles-img-bottom {
         margin-top: 20px;
     }
@@ -144,6 +148,7 @@
 
     /* konversi-pecahan.html : Pecahan How To Convert */
     .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
         height: 900px;
     }
 
@@ -181,10 +186,118 @@
         width: 150px;
         margin-top: -65px;
     }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .heading-about-website {
+        padding-top: 60px !important;
+    }
+
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 100px;
+        margin-top: -155px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 130px;
+        margin-top: -60px !important;
+        margin-left: 175px !important;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 180px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us {
+        padding-top: 40px;
+    }
+
+    .section-about-us-boy-img {
+        width: 300px;
+        margin-top: 100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 70px;
+        margin-top: -330px;
+        margin-left: 215px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-new-line {
+        display: none;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-header.jpg');
+        height: 700px;
+    }
+
+    .heading-contact-us {
+        padding-top: 90px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 200px;
+        margin-top: -25px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 95px;
+        margin-top: -145px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-contact-us-content {
+        padding-top: 50px;
+    }
+
+    .contact-us-link {
+        font-size: 17px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        display: flex;
+        float: left;
+        width: 150px;
+        margin-top: 100px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 10px;
+    }
+
+    .contact-us-socmed-btn {
+        margin-top: -45px;
+        margin-left: 100px;
+    }
 }
 
-/* ==== Extra small devices (portrait phones, min-width 353px and max-width 575.98px) ==== */
-@media (min-width: 353px) and (max-width: 580px) {
+/* ==== Extra small devices (portrait phones, min-width 353px and max-width 580px) ==== */
+@media (min-width: 373px) and (max-width: 580px) {
 
     /* ==== CSS FOR ALL PAGE ==== */
     p {
@@ -264,6 +377,10 @@
         margin-top: -120px;
     }
 
+    .do-you-know-part-two-square-img {
+        background-image: none;
+    }
+
     .do-you-know-scribbles-img-bottom {
         margin-top: 20px;
     }
@@ -341,9 +458,13 @@
     .pecahan-how-to-convert-scribbles-top {
         margin-top: -65px;
     }
+    
+    .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
+    }
 
     .pecahan-how-to-convert-scribbles-bottom {
-        margin-top: 135px;
+        margin-top: 115px;
     }
 
     .heading-pecahan-how-to-convert {
@@ -372,9 +493,109 @@
         width: 200px;
         margin-top: -65px;
     }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        position: absolute;
+        right: 0;
+        width: 100px;
+        margin-top: -145px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 130px;
+        margin-top: -60px !important;
+        margin-left: 235px !important;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 180px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us {
+        padding-top: 40px;
+    }
+
+    .section-about-us-boy-img {
+        width: 300px;
+        margin-top: 100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 80px;
+        margin-top: -335px;
+        margin-left: 290px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-header.jpg');
+        height: 700px;
+    }
+
+    .heading-contact-us {
+        padding-top: 90px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 200px;
+        margin-top: -25px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 100px;
+        margin-top: -130px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-contact-us-content {
+        padding-top: 50px;
+    }
+
+    .contact-us-link {
+        font-size: 18px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        display: flex;
+        float: left;
+        width: 170px;
+        margin-top: 100px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 10px;
+    }
+
+    .contact-us-socmed-btn {
+        margin-top: -50px;
+        margin-left: 100px;
+    }
 }
 
-/* ==== CSS For Width 425px ==== */
+/* ==== CSS For min-width 410px and max-width 570px ==== */
 @media (min-width: 410px) and (max-width: 570px) {
 
     /* dasar-aljabar.html : Form of Operation */
@@ -386,6 +607,7 @@
 
     /* ==== konversi-pecahan.html : How To Convert */
     .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
         height: 825px;
     }
 
@@ -407,6 +629,7 @@
 
     /* ==== konversi-pecahan.html : How To Convert */
     .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
         height: 800px;
     }
 
@@ -426,7 +649,7 @@
     }
 }
 
-/* ==== Small devices (landscape phones, 576px and up) ==== */
+/* ==== Small devices (landscape phones, min width 480px and max width 767.98px) ==== */
 @media (min-width: 480px) and (max-width: 767.98px) {
 
     /* ==== CSS FOR ALL PAGE ==== */
@@ -544,6 +767,7 @@
     /* ==== CSS FOR KONVERSI-PECAHAN.html ==== */
     /* konversi-pecahan.html : Pecahan How To Convert */
     .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
         height: 825px;
     }
 
@@ -580,6 +804,102 @@
         right: 0;
         width: 200px;
         margin-top: -100px;
+    }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        width: 100px;
+        position: absolute;
+        right: 0;
+        margin-top: -130px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 130px;
+        margin-top: -60px !important;
+        margin-left: 300px !important;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 200px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us-boy-img {
+        width: 300px;
+        margin-top: 100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 80px;
+        margin-top: -335px;
+        margin-left: 290px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-new-line {
+        display: none;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-header.jpg');
+        height: 700px;
+    }
+
+    .heading-contact-us {
+        padding-top: 90px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 250px;
+        margin-top: -35px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 115px;
+        margin-top: -85px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .contact-us-link {
+        font-size: 18px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        display: flex;
+        float: left;
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 10px;
+    }
+
+    .contact-us-socmed-btn {
+        margin-top: -50px;
+        margin-left: 100px;
     }
 }
 
@@ -752,6 +1072,7 @@
 
     /* konversi-pecahan.html : Pecahan How To Convert */
     .pecahan-how-to-convert {
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
         height: 800px;
     }
 
@@ -789,6 +1110,105 @@
         position: absolute;
         right: 0;
         width: 260px;
+    }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        width: 170px;
+        position: absolute;
+        right: 0;
+        margin-top: -130px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        margin-top: -80px;
+        margin-right: 100px;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 300px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us {
+        padding-top: 100px;
+    }
+
+    .section-about-us-boy-img {
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 80px;
+        margin-top: -375px;
+        margin-left: 260px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-header.jpg');
+        height: 700px;
+    }
+
+    .heading-contact-us {
+        padding-top: 80px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 300px;
+        margin-top: -37px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 150px;
+        margin-top: -85px;
+        margin-left: 40px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-contact-us-content {
+        padding-top: 150px;
+    }
+
+    .contact-us-link {
+        font-size: 20px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        display: flex;
+        float: left;
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 50px;
+    }
+
+    .contact-us-socmed-btn {
+        margin-top: -100px;
+        margin-left: 100px;
     }
 }
 
@@ -869,6 +1289,10 @@
         width: 300px;
     }
 
+    .do-you-know-part-two-square-img {
+        background-image: url('../images/shapes-img/square.png');
+    }
+
     .do-you-know-scribbles-img-bottom {
         margin-top: 5px;
         width: 300px;
@@ -936,7 +1360,7 @@
     .jumbotron-konversi-pecahan-img {
         width: 80vw;
     }
-    
+
     /* konversi-pecahan.html : Do You Know */
     .pecahan-do-you-know {
         height: 650px;
@@ -959,6 +1383,7 @@
     /* konversi-pecahan.html : Pecahan How To Convert */
     .pecahan-how-to-convert {
         height: 770px;
+        background-image: url('../images/background-img/bg-image-how-to-convert-without-square.jpg');
     }
 
     .pecahan-how-to-convert-scribbles-top {
@@ -997,6 +1422,105 @@
         width: 300px;
         float: right;
         margin-top: 20px;
+    }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        margin-top: -130px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 220px;
+        position: absolute;
+        right: 0;
+        margin-top: -115px;
+        margin-right: 100px;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 300px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us {
+        padding-top: 100px;
+    }
+
+    .section-about-us-boy-img {
+        width: 450px;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 100px;
+        margin-top: -25px;
+        margin-left: -100px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-header.jpg');
+        height: 768px;
+    }
+
+    .heading-contact-us {
+        padding-top: 100px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 300px;
+        margin-top: -37px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 150px;
+        margin-top: -85px;
+        margin-left: 40px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-contact-us-content {
+        padding-top: 150px;
+    }
+
+    .contact-us-link {
+        font-size: 20px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        position: absolute;
+        left: 0;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 220px;
+    }
+
+    .contact-us-socmed-btn {
+        position: absolute;
+        left: 0;
+        margin-top: 30px;
     }
 }
 
@@ -1081,6 +1605,10 @@
     .do-you-know-scribbles-img-top {
         margin-top: -125px;
         width: 300px;
+    }
+
+    .do-you-know-part-two-square-img {
+        background-image: url('../images/shapes-img/square.png');
     }
 
     .do-you-know-scribbles-img-bottom {
@@ -1168,6 +1696,7 @@
     /* konversi-pecahan.html : Pecahan How To Convert */
     .pecahan-how-to-convert {
         height: 800px;
+        background-image: url('../images/background-img/bg-image-how-to-convert-with-square.jpg');
         background-position: center;
     }
 
@@ -1207,5 +1736,104 @@
     .pecahan-how-to-convert-triangle-img {
         width: 250px;
         margin-top: 5px;
+    }
+
+    /* CSS FOR ABOUT-AND-CONTACT.html */
+    /* about-and-contact.html : About Website */
+    .section-about-website-border-bottom {
+        width: 270px;
+    }
+
+    .section-about-website-triangle-img {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        margin-top: -130px;
+    }
+
+    .section-about-and-contact-ruler-img {
+        width: 220px;
+        position: absolute;
+        right: 0;
+        margin-top: -115px;
+        margin-right: 100px;
+    }
+
+    .section-about-and-contact-scribbles-top {
+        position: absolute;
+        width: 300px;
+    }
+
+    /* about-and-contact.html : About Us */
+    .section-about-us {
+        padding-top: 100px;
+    }
+
+    .section-about-us-boy-img {
+        width: 450px;
+    }
+
+    .section-about-us-go-img {
+        position: absolute;
+        width: 100px;
+        margin-top: -25px;
+        margin-left: -100px;
+    }
+
+    .section-about-us-border-bottom {
+        width: 270px;
+    }
+
+    /* about-and-contact.html : Contact Us */
+    .section-contact-us {
+        background-image: url('../images/background-img/bg-contact-with-square.jpg');
+        height: 768px;
+    }
+
+    .heading-contact-us {
+        padding-top: 100px;
+    }
+
+    .section-contact-us-scribbles-top {
+        display: flex;
+        float: right;
+        width: 300px;
+        margin-top: -37px;
+    }
+
+    .section-contact-us-triangle-img {
+        position: absolute;
+        width: 150px;
+        margin-top: -85px;
+        margin-left: 40px;
+    }
+
+    .section-contact-us-border-bottom {
+        width: 270px;
+    }
+
+    .section-contact-us-content {
+        padding-top: 150px;
+    }
+
+    .contact-us-link {
+        font-size: 20px !important;
+    }
+
+    .section-contact-us-scribbles-bottom {
+        position: absolute;
+        left: 0;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .contact-us-content-bottom {
+        margin-top: 220px;
+    }
+
+    .contact-us-socmed-btn {
+        position: absolute;
+        left: 0;
+        margin-top: 30px;
     }
 }

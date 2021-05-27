@@ -1,43 +1,11 @@
-<!doctype html>
-<html lang="en" id="home">
+@extends('layouts.landing')
+@section('content')
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#52a67f">
-
-    <!-- Icon -->
-    <link rel="icon" href="assets/images/logo/aniedu-favicon.png" sizes="50x50" type="image/png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <title>AniEdu Web</title>
-</head>
-
-<body data-spy="scroll" data-target="#navbar" data-offset="0" id="about-and-contact">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
         <div class="container">
-            <a href="index.html"><img src="assets/images/logo/aniedu-logo.png" alt="" class="navbar-brand"
-                    style="width: 215px; height: 60px; object-fit: contain;"></a>
+            <a href="/"><img src="{{ asset('/landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
+                style="width: 215px; height: 60px; object-fit: contain;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,20 +13,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white active" href="index.html">Beranda <span
+                        <a class="nav-link nav-menu text-white " href="/">Beranda <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown pl-3 pl-lg-4 pl-md-3">
                         <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Materi</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="index.html">Beranda</a>
-                            <a class="dropdown-item" href="dasar-aljabar.html">Konsep Dasar Aljabar</a>
-                            <a class="dropdown-item" href="konversi-pecahan.html">Konversi Pecahan</a>
+                            <a class="dropdown-item" href="/">Beranda</a>
+                            <a class="dropdown-item" href="/dasar-aljabar">Konsep Dasar Aljabar</a>
+                            <a class="dropdown-item" href="/konversi-pecahan">Konversi Pecahan</a>
                         </div>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white" href="#about-and-contact">About dan Contact</a>
+                        <a class="nav-link nav-menu text-white active" href="#">About dan Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,9 +39,9 @@
 
                 <div class="col-lg-12">
                     <h1 class="heading-about-website color-1 text-center pt-5 mt-5">About Website</h1>
-                    <img src="assets/images/shapes-img/second-border.png" alt=""
+                    <img src="{{ asset('/images/shapes-img/second-border.png') }}" alt=""
                         class="section-about-website-border-bottom d-flex mx-auto">
-                    <img src="assets/images/shapes-img/triangle.png" alt=""
+                    <img src="{{ asset('/images/shapes-img/triangle.png') }}" alt=""
                         class="section-about-website-triangle-img mirror-img">
                     <p class="color-3 text-center pt-4">Apa itu Ani Edu Web?<br
                             class="section-about-website-new-line">AniEdu Web adalah sebuah website
@@ -91,8 +59,8 @@
     </section>
 
     <div class="container pt-5 pb-5">
-        <img src="assets/images/shapes-img/second-scribbles.png" alt="" class="section-about-and-contact-scribbles-top">
-        <img src="assets/images/shapes-img/ruler.png" alt="" class="section-about-and-contact-ruler-img mirror-img">
+        <img src="{{ asset('/images/shapes-img/second-scribbles.png') }}" alt="" class="section-about-and-contact-scribbles-top">
+        <img src="{{ asset('/images/shapes-img/ruler.png') }}" alt="" class="section-about-and-contact-ruler-img mirror-img">
     </div>
 
     <section class="section-about-us" id="section-about-us">
@@ -100,13 +68,13 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6">
-                    <img src="assets/images/illustration-img/boy-second.png" alt="" class="section-about-us-boy-img">
-                    <img src="assets/images/illustration-img/go.png" alt="" class="section-about-us-go-img">
+                    <img src="{{ asset('/images/illustration-img/boy-second.png') }}" alt="" class="section-about-us-boy-img">
+                    <img src="{{ asset('/images/illustration-img/go.png') }}" alt="" class="section-about-us-go-img">
                 </div>
 
                 <div class="col-lg-6 col-md-6 pb-4 pb-lg-0 text-center">
                     <h1 class="color-1 pt-lg-3 pt-md-0">About Us</h1>
-                    <img src="assets/images/shapes-img/second-border.png" alt=""
+                    <img src="{{ asset('/images/shapes-img/second-border.png') }}" alt=""
                         class="section-about-us-border-bottom d-flex mx-auto">
                     <p class="color-3 pt-4">Website ini dibuat oleh Michella dengan harapan dapat membantu anak kelas
                         enam sekolah dasar untuk lebih giat belajar matematika
@@ -122,10 +90,10 @@
 
     <section class="section-contact-us" id="section-contact-us">
         <div class="container">
-            <img src="assets/images/shapes-img/second-scribbles.png" alt="" class="section-contact-us-scribbles-top">
+            <img src="{{ asset('/images/shapes-img/second-scribbles.png') }}" alt="" class="section-contact-us-scribbles-top">
             <h1 class="heading-contact-us text-center text-white">Contact Us</h1>
-            <img src="assets/images/shapes-img/triangle.png" alt="" class="section-contact-us-triangle-img mirror-img">
-            <img src="assets/images/shapes-img/second-border.png" alt=""
+            <img src="{{ asset('/images/shapes-img/triangle.png') }}" alt="" class="section-contact-us-triangle-img mirror-img">
+            <img src="{{ asset('/images/shapes-img/second-border.png') }}" alt=""
                 class="section-contact-us-border-bottom d-flex mx-auto">
 
             <div class="section-contact-us-content">
@@ -150,7 +118,7 @@
                     </div>
 
                     <div class="col-lg-6 contact-us-content-bottom">
-                        <img src="assets/images/shapes-img/first-scribbles.png" alt=""
+                        <img src="{{ asset('/images/shapes-img/first-scribbles.png') }}" alt=""
                             class="section-contact-us-scribbles-bottom">
                     </div>
 
@@ -169,28 +137,4 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer" id="footer" style="bottom: 0;">
-        <p class="text-center text-white pt-3" style="font-size: 16px !important;">Copyright AniEdu Website &#169; 2021
-            All rights reserved</p>
-    </footer>
-
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-</script>
--->
-</body>
-
-</html>
+@endsection

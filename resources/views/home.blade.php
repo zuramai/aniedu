@@ -13,14 +13,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white active" href="#home">Home <span
+                        <a class="nav-link nav-menu text-white active" href="#home">Beranda <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
                         <a class="nav-link nav-menu text-white" href="#subject">Subject</a>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white" href="#about-and-contact">About and Contact</a>
+                        <a class="nav-link nav-menu text-white" href="#about-and-contact">About dan Contact</a>
                     </li>
                 </ul>
             </div>

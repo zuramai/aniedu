@@ -74,7 +74,7 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white" href="">About and Contact</a>
+                    <a class="nav-link nav-menu text-white" href="/about-and-contact">About dan Contact</a>
                 </li>
             </ul>
         </div>
@@ -93,7 +93,7 @@
 </section>
 
 <!-- Heading pecahan-do-you-know -->
-<section class="pecahan-do-you-know pt-5 pb-5" id="do-you-know"
+<section class="pecahan-do-you-know color-1 pt-5 pb-5" id="do-you-know"
     style="background-image: url({{ asset('landing/images/background-img/square-pattern.png')}});">
     <div class="container">
         <h1 class="heading-pecahan-do-you-know text-center color-primary pt-5">Tahukah Kalian?</h1>
@@ -192,33 +192,30 @@
 </section>
 
 <!-- Top Footer -->
-<section class="bg-color-secondary pt-5 pb-5">
+<section class="bg-color-2 pt-5 pb-5">
     <div class="container">
         <div class="row text-center text-center">
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                 <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-                    <a href="" class="color-secondary">Team</a>
-                    <a href="" class="color-secondary">Website</a>
+                    <a href="about-and-contact.html#section-about-us" class="color-2">Team</a>
+                    <a href="about-and-contact.html#section-about-website" class="color-2">Website</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
-                <div
-                    class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                            class="fas fa-envelope"></i></a>
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                            class="fab fa-instagram-square pl-3"></i></a>
+                <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
+                    <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">More</h3>
                 <div class="d-flex flex-column top-footer-more-content-wrapper">
-                    <a href="" class="color-secondary">Gaming</a>
+                    <a href="" class="color-2">Gaming</a>
                 </div>
             </div>
 

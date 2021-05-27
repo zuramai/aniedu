@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white active" href="#home">Home <span
+                    <a class="nav-link nav-menu text-white active" href="#home">Beranda <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
@@ -34,7 +34,7 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white" href="">About and Contact</a>
+                    <a class="nav-link nav-menu text-white" href="/about-and-contact">About dan Contact</a>
                 </li>
             </ul>
         </div>
@@ -116,7 +116,7 @@
 
 <!-- Form Of Operation -->
 <section class="form-of-operation pt-5 pb-5" id="form-of-operation"
-    style="background-image: url('{{ asset('/landing/images/background-img/square-pttern.png') }}')">
+    >
     <div class="container">
         <h1 class="color-primary text-center pt-5">Bentuk Operasi</h1>
         <img src="{{ asset('/landing/images/shapes-img/second-border.png') }}" alt=""
@@ -168,30 +168,30 @@
 </section>
 
 <!-- Top Footer -->
-<section class="bg-color-secondary pt-5 pb-5">
+<section class="bg-color-2 pt-5 pb-5">
     <div class="container">
         <div class="row text-center text-center">
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                 <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-                    <a href="" class="color-secondary">Team</a>
-                    <a href="" class="color-secondary">Website</a>
+                    <a href="about-and-contact.html#section-about-us" class="color-2">Team</a>
+                    <a href="about-and-contact.html#section-about-website" class="color-2">Website</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
                 <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
+                    <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">More</h3>
                 <div class="d-flex flex-column top-footer-more-content-wrapper">
-                    <a href="" class="color-secondary">Gaming</a>
+                    <a href="" class="color-2">Gaming</a>
                 </div>
             </div>
 
