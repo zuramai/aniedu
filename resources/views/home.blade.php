@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
+    <nav class="navbar navigation-bar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
         <div class="container">
             <a href="#home"><img src="{{ asset('/landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
                     style="width: 215px; height: 60px; object-fit: contain;"></a>
@@ -13,14 +13,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white active" href="#home">Home <span
+                        <a class="nav-link nav-menu text-white active" href="#home">Beranda <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
                         <a class="nav-link nav-menu text-white" href="#subject">Subject</a>
                     </li>
                     <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white" href="#about-and-contact">About and Contact</a>
+                        <a class="nav-link nav-menu text-white" href="#about-and-contact">About dan Contact</a>
                     </li>
                 </ul>
             </div>
@@ -35,16 +35,16 @@
 
         <div class="scroll-down d-flex justify-content-center">
             <img src="{{ asset('/landing/images/shapes-img/scrolldown.png') }}" alt="" class="scroll-down-icon-img ml-5">
+        </div>
     </section>
 
     <!-- Subject -->
-    <section class="subject pt-5 pb-5" id="subject"
-        style="background-image: url({{ asset('/landing/images/background-img/square-pattern.png')}} ) ;">
+    <section class="subject pt-5 pb-5" id="subject">
         <img src="{{ asset('/landing/images/shapes-img/first-scribbles.png') }}" alt=""
             class="subject-scribbles-img img-fluid d-flex mr-auto ml-3 mt-5">
         <div class="container">
 
-            <h3 class="display-4 text-center color-primary pt-3 pt-lg-0 pt-md-0">Subject</h3>
+            <h3 class="display-4 text-center pt-3 pt-lg-0 pt-md-0 color-1">Subject</h3>
 
             <div class="subject-content">
                 <div class="row">
@@ -111,7 +111,7 @@
                                 class="socmed pl-4 ml-3">AniEduWeb@gmail.com</span></a>
                         <a href="" class="contact-socmed d-block mt-3"><i class="fab fa-instagram-square contact-icon pr-2"></i><span
                                 class="text-white socmed">Instagram:</span><br><span
-                                class="socmed pl-4 ml-3">AniEdu_Web</span></a>
+                                class="socmed pl-4 ml-3">website.aniedu</span></a>
 
                     </div>
 

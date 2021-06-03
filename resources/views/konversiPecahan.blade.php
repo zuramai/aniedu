@@ -41,7 +41,7 @@
     }
 </style>
  <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-collapse-md navbar-dark fixed-top" id="navbar">
+ <nav class="navbar navigation-bar navbar-expand-lg navbar-collapse-md navbar-dark fixed-top" id="navbar">
     <div class="container">
         <a href="/"><img src="{{ asset('landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
                 style="width: 215px; height: 60px; object-fit: contain;"></a>
@@ -74,7 +74,7 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white" href="">About and Contact</a>
+                    <a class="nav-link nav-menu text-white" href="">About dan Contact</a>
                 </li>
             </ul>
         </div>
@@ -93,10 +93,10 @@
 </section>
 
 <!-- Heading pecahan-do-you-know -->
-<section class="pecahan-do-you-know pt-5 pb-5" id="do-you-know"
-    style="background-image: url({{ asset('landing/images/background-img/square-pattern.png')}});">
+<section class="pecahan-do-you-know pt-5 pb-5 color-1" id="do-you-know"
+  >
     <div class="container">
-        <h1 class="heading-pecahan-do-you-know text-center color-primary pt-5">Tahukah Kalian?</h1>
+        <h1 class="heading-pecahan-do-you-know text-center color-1 pt-5">Tahukah Kalian?</h1>
         <img src="{{ asset('landing/images/shapes-img/second-border.png') }}" alt=""
             class="heading-pecahan-do-you-know-border-bottom d-flex mx-auto">
         <img src="{{ asset('landing/images/shapes-img/ruler.png') }}" alt="" class="pecahan-do-you-know-ruler-img">
@@ -168,15 +168,15 @@
 </section>
 
 <section class="pecahan-learn-with-ani-and-edu form-of-operation pt-3 pb-5"
-    style="background-image: url({{ asset('landing/images/background-img/square-pattern-second.png')}})">
+   >
     <div class="container">
-        <p class="color-primary pt-4 pt-lg-5 pt-md-5">Ayuk belajar bareng Ani dan Edu lewat video ini!</p>
+        <p class="color-1 pt-4 pt-lg-5 pt-md-5">Ayuk belajar bareng Ani dan Edu lewat video ini!</p>
 
         <div class="text-center d-flex justify-content-center">
             <img src="{{ asset('landing/images/shapes-img/rectangle.png') }}" alt="" class="form-of-operation-rectangle-img">
         </div>
 
-        <p class="color-primary text-center pt-4">Main Game Yuk!</p>
+        <p class="color-1 text-center pt-4">Main Game Yuk!</p>
         <img src="{{ asset('landing/images/illustration-img/go.png') }}" alt=""
             class="form-of-operation-go-img img-fluid position-absolute">
 
@@ -190,35 +190,31 @@
     </div>
     </div>
 </section>
-
 <!-- Top Footer -->
-<section class="bg-color-secondary pt-5 pb-5">
+<section class="bg-color-2 pt-5 pb-5">
     <div class="container">
         <div class="row text-center text-center">
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                 <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-                    <a href="" class="color-secondary">Team</a>
-                    <a href="" class="color-secondary">Website</a>
+                    <a href="about-and-contact.html#section-about-us" class="color-2">Team</a>
+                    <a href="about-and-contact.html#section-about-website" class="color-2">Website</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
-                <div
-                    class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                            class="fas fa-envelope"></i></a>
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                            class="fab fa-instagram-square pl-3"></i></a>
+                <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
+                    <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/website.aniedu" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">More</h3>
                 <div class="d-flex flex-column top-footer-more-content-wrapper">
-                    <a href="" class="color-secondary">Gaming</a>
+                    <a href="" class="color-2">Gaming</a>
                 </div>
             </div>
 

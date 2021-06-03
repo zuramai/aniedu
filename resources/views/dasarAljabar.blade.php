@@ -1,7 +1,7 @@
 @extends('layouts.landing')
 
 @section('content')
-<nav class="navbar navbar-expand-lg navbar-collapse-md navbar-dark fixed-top" id="navbar">
+<nav class="navbar navigation-bar navbar-expand-lg navbar-collapse-md navbar-dark fixed-top" id="navbar">
     <div class="container">
         <a href="/"><img src="{{ asset('/landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
                 style="width: 215px; height: 60px; object-fit: contain;"></a>
@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white active" href="#home">Home <span
+                    <a class="nav-link nav-menu text-white active" href="#home">Beranda <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
@@ -34,7 +34,7 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                    <a class="nav-link nav-menu text-white" href="">About and Contact</a>
+                    <a class="nav-link nav-menu text-white" href="">About dan Contact</a>
                 </li>
             </ul>
         </div>
@@ -53,7 +53,7 @@
 </section>
 
 <!-- Do You Know (Part One) -->
-<section class="do-you-know-part-one pt-5 pb-5" id="do-you-know"
+<section class="do-you-know-part-one pt-5 pb-5 color-1" id="do-you-know"
     style="background-image: url({{ asset('/landing/images/background-img/square-pattern-second.pn') }});">
     <div class="container">
         <h1 class="heading-do-you-know-part-one text-center color-primary">Tahukah Kalian?</h1>
@@ -83,7 +83,7 @@
 <section class="do-you-know-part-two pt-5 pb-5"
     style="background-image: url({{ asset('/landing/images/background-img/bg-about-and-contact.jpg')}});">
     <div class="container">
-        <img src="/{{ asset('/landing/images/shapes-img/first-scribbles.png') }}" alt="" class="do-you-know-scribbles-img-top">
+        <img src="{{ asset('/landing/images/shapes-img/first-scribbles.png') }}" alt="" class="do-you-know-scribbles-img-top">
         <div class="row">
 
             <div class="col-lg-6 col-md-6 order-2 order-lg-1 order-md-1">
@@ -109,20 +109,20 @@
             </div>
 
         </div>
-        <img src="/{{ asset('/landing/images/shapes-img/second-scribbles.png') }}" alt=""
+        <img src="{{ asset('/landing/images/shapes-img/second-scribbles.png') }}" alt=""
             class="do-you-know-scribbles-img-bottom d-flex float-right">
     </div>
 </section>
 
 <!-- Form Of Operation -->
-<section class="form-of-operation pt-5 pb-5" id="form-of-operation"
+<section class="form-of-operation pt-5 pb-5 color-1" id="form-of-operation"
     style="background-image: url('{{ asset('/landing/images/background-img/square-pttern.png') }}')">
     <div class="container">
-        <h1 class="color-primary text-center pt-5">Bentuk Operasi</h1>
+        <h1 class="color-1 text-center pt-5">Bentuk Operasi</h1>
         <img src="{{ asset('/landing/images/shapes-img/second-border.png') }}" alt=""
             class="form-of-operation-heading-border-bottom d-flex mx-auto">
 
-        <div class="row pt-4">
+        <div class="row pt-4 color-1">
 
             <div class="col-lg-6 color-primary">
                 <p>Ada bentuk operasi dasar aljabar yang<br>wajib diingat untuk memudahkan
@@ -168,30 +168,30 @@
 </section>
 
 <!-- Top Footer -->
-<section class="bg-color-secondary pt-5 pb-5">
+<section class="bg-color-2 pt-5 pb-5">
     <div class="container">
         <div class="row text-center text-center">
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                 <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-                    <a href="" class="color-secondary">Team</a>
-                    <a href="" class="color-secondary">Website</a>
+                    <a href="" class="color-2">Team</a>
+                    <a href="" class="color-2">Website</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
                 <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
-                    <a href="" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
+                    <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/website.aniedu" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block">More</h3>
                 <div class="d-flex flex-column top-footer-more-content-wrapper">
-                    <a href="" class="color-secondary">Gaming</a>
+                    <a href="" class="color-2">Gaming</a>
                 </div>
             </div>
 
