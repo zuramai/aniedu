@@ -8,6 +8,7 @@
   background-image: url(/images/board.png?7ea4603285f8c376f8ba96f2b79a3235);
   min-height: 100vh;
   padding: 3rem;
+  padding-bottom: 8rem;
   background-size: cover;
   position: relative;
 }

@@ -27,8 +27,11 @@
     </head>
     <body class="board-layout">
         <div id="app">
-            <div id="board">
+            <div id="board" class='pb-64'>
                 @yield('content')
+                <div class="penghapus">
+                    <img src="{{ asset('images/illustration/penghapus.png') }}" alt="Penghapus" class='absolute' style="bottom:0">
+                </div>
             </div>
         </div>
         <script src="{{ mix('js/app.js') }}"></script>

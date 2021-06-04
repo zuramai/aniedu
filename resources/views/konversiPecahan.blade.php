@@ -74,7 +74,11 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
+<<<<<<< HEAD
                     <a class="nav-link nav-menu text-white" href="">About dan Contact</a>
+=======
+                    <a class="nav-link nav-menu text-white" href="/about-and-contact">About dan Contact</a>
+>>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
                 </li>
             </ul>
         </div>
@@ -93,8 +97,13 @@
 </section>
 
 <!-- Heading pecahan-do-you-know -->
+<<<<<<< HEAD
 <section class="pecahan-do-you-know pt-5 pb-5 color-1" id="do-you-know"
   >
+=======
+<section class="pecahan-do-you-know color-1 pt-5 pb-5" id="do-you-know"
+    style="background-image: url({{ asset('landing/images/background-img/square-pattern.png')}});">
+>>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
     <div class="container">
         <h1 class="heading-pecahan-do-you-know text-center color-1 pt-5">Tahukah Kalian?</h1>
         <img src="{{ asset('landing/images/shapes-img/second-border.png') }}" alt=""
@@ -207,7 +216,11 @@
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
                 <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
                     <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+<<<<<<< HEAD
                     <a href="https://www.instagram.com/website.aniedu" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
+=======
+                    <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
+>>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
                 </div>
             </div>
 

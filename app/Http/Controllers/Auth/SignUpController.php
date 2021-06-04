@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
-
+use Illuminate\Support\Facades\Hash;
 
 class SignUpController extends Controller
 {
@@ -24,7 +24,7 @@ class SignUpController extends Controller
         $data = [
             'email' => $request->email,
             'name' => $request->name,
-            'password' => $request->password,
+            'password' => Hash::make($request->password),
             'avatar_url' => '1.png'
         ];
 
