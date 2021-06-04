@@ -55,17 +55,7 @@ body {
 
 /* Navbar (For All Page) */
 .navbar {
-<<<<<<< HEAD
-    transition: all 0.4s;
-}
-
-.navbar-about-and-contact {
     background-image: url('../images/background-img/bg-header.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-=======
-    background-image: url('../images/background-img/bg-header.jpg');
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 }
 
@@ -238,16 +228,6 @@ body {
 
 /* CSS FOR ABOUT-AND-CONTACT.html */
 /* .about-and-contact.html */
-<<<<<<< HEAD
-.section-contact-us {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-=======
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
 .contact-us-link {
     color: white;
 }

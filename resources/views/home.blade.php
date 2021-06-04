@@ -106,10 +106,10 @@
                         class="contact-border-bottom d-flex mx-auto">
 
                     <div class="contact-content pt-3 pl-5 ml-lg-5 pl-md-4 ml-md-0">
-                        <a href="" class="contact-socmed d-block"><i class="fas fa-envelope contact-icon pr-2"></i><span
+                        <a href="mailto:AniEduWeb@gmail.com" class="contact-socmed d-block"><i class="fas fa-envelope contact-icon pr-2"></i><span
                                 class="text-white socmed">Email:</span><br><span
                                 class="socmed pl-4 ml-3">AniEduWeb@gmail.com</span></a>
-                        <a href="" class="contact-socmed d-block mt-3"><i class="fab fa-instagram-square contact-icon pr-2"></i><span
+                        <a href="https://www.instagram.com/website.aniedu" class="contact-socmed d-block mt-3"><i class="fab fa-instagram-square contact-icon pr-2"></i><span
                                 class="text-white socmed">Instagram:</span><br><span
                                 class="socmed pl-4 ml-3">website.aniedu</span></a>
 

@@ -1830,11 +1830,7 @@
     /* about-and-contact.html : Contact Us */
     .section-contact-us {
         background-image: url('../images/background-img/bg-contact-with-square.jpg');
-<<<<<<< HEAD
-        height: 800px;
-=======
         height: 768px;
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
     }
 
     .heading-contact-us {

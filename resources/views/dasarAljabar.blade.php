@@ -34,11 +34,7 @@
                     </div>
                 </li>
                 <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-<<<<<<< HEAD
-                    <a class="nav-link nav-menu text-white" href="">About dan Contact</a>
-=======
                     <a class="nav-link nav-menu text-white" href="/about-and-contact">About dan Contact</a>
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
                 </li>
             </ul>
         </div>
@@ -119,13 +115,8 @@
 </section>
 
 <!-- Form Of Operation -->
-<<<<<<< HEAD
-<section class="form-of-operation pt-5 pb-5 color-1" id="form-of-operation"
-    style="background-image: url('{{ asset('/landing/images/background-img/square-pttern.png') }}')">
-=======
 <section class="form-of-operation pt-5 pb-5" id="form-of-operation"
     >
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
     <div class="container">
         <h1 class="color-1 text-center pt-5">Bentuk Operasi</h1>
         <img src="{{ asset('/landing/images/shapes-img/second-border.png') }}" alt=""
@@ -184,13 +175,8 @@
             <div class="col-lg-4 col-md-4 pt-3 pt-lg-0">
                 <h3 class="text-lg-center text-white d-inline d-lg-block d-md-block">About Us</h3>
                 <div class="d-flex flex-column top-footer-about-content-wrapper text-center text-lg-left">
-<<<<<<< HEAD
-                    <a href="" class="color-2">Team</a>
-                    <a href="" class="color-2">Website</a>
-=======
                     <a href="about-and-contact.html#section-about-us" class="color-2">Team</a>
                     <a href="about-and-contact.html#section-about-website" class="color-2">Website</a>
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
                 </div>
             </div>
 
@@ -198,11 +184,7 @@
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
                 <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
                     <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
-<<<<<<< HEAD
-                    <a href="https://www.instagram.com/website.aniedu" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
-=======
                     <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
->>>>>>> dc0c4bf8132be0b350e14d6aae178116f218f41d
                 </div>
             </div>
 
