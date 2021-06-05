@@ -94,7 +94,7 @@
 
 <!-- Heading pecahan-do-you-know -->
 <section class="pecahan-do-you-know color-1 pt-5 pb-5" id="do-you-know"
-    style="background-image: url({{ asset('landing/images/background-img/square-pattern.png')}});">
+   >
     <div class="container">
         <h1 class="heading-pecahan-do-you-know text-center color-1 pt-5">Tahukah Kalian?</h1>
         <img src="{{ asset('landing/images/shapes-img/second-border.png') }}" alt=""

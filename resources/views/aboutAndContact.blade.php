@@ -2,36 +2,36 @@
 @section('content')
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
-        <div class="container">
-            <a href="/"><img src="{{ asset('/landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
-                style="width: 215px; height: 60px; object-fit: contain;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white " href="/">Beranda <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Materi</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/">Beranda</a>
-                            <a class="dropdown-item" href="/dasar-aljabar">Konsep Dasar Aljabar</a>
-                            <a class="dropdown-item" href="/konversi-pecahan">Konversi Pecahan</a>
-                        </div>
-                    </li>
-                    <li class="nav-item pl-3 pl-lg-4 pl-md-3">
-                        <a class="nav-link nav-menu text-white active" href="#">About dan Contact</a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-about-and-contact navbar-expand-lg navbar-expand-md navbar-dark fixed-top" id="navbar">
+    <div class="container">
+        <a href="/"><img src="{{ asset('/landing/images/logo/aniedu-logo.png') }}" alt="" class="navbar-brand"
+            style="width: 215px; height: 60px; object-fit: contain;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-3 pl-lg-4 pl-md-3">
+                    <a class="nav-link nav-menu text-white " href="/">Beranda <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown pl-3 pl-lg-4 pl-md-3">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Materi</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/">Beranda</a>
+                        <a class="dropdown-item" href="/dasar-aljabar">Konsep Dasar Aljabar</a>
+                        <a class="dropdown-item" href="/konversi-pecahan">Konversi Pecahan</a>
+                    </div>
+                </li>
+                <li class="nav-item pl-3 pl-lg-4 pl-md-3">
+                    <a class="nav-link nav-menu text-white active" href="#">About dan Contact</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <section class="section-about-website mt-5" id="section-about-website">
         <div class="container">
@@ -104,7 +104,7 @@
                         <div class="pt-3">
                             <a href="mailto:e12170075@john.petra.ac.id" class="contact-us-link">email: e12170075@john.petra.ac.id</a>
                             <br>
-                            <a href="https://www.instagram.com/michella.website/" class="contact-us-link">instagram: michella.website</a>
+                            <a href="https://www.instagram.com/michellaa_san/" class="contact-us-link">instagram: michellaa_san</a>
                         </div>
                     </div>
 
@@ -124,10 +124,8 @@
 
                     <div class="col-lg-6 contact-us-content-bottom">
                         <div class="contact-us-socmed-btn">
-                            <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                                    class="fas fa-envelope"></i></a>
-                            <a href="" class="text-dark contact-socmed top-footer-socmed"><i
-                                    class="fab fa-instagram-square pl-3"></i></a>
+                            <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
+                            <a href="https://www.instagram.com/website.aniedu/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                         </div>
                     </div>
 

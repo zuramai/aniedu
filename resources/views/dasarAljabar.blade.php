@@ -115,7 +115,7 @@
 </section>
 
 <!-- Form Of Operation -->
-<section class="form-of-operation pt-5 pb-5" id="form-of-operation"
+<section class="form-of-operation color-1 pt-5 pb-5" id="form-of-operation"
     >
     <div class="container">
         <h1 class="color-1 text-center pt-5">Bentuk Operasi</h1>
@@ -184,7 +184,7 @@
                 <h3 class="text-lg-center text-white d-inline d-lg-block">Contact Us</h3>
                 <div class="d-flex flex-row top-footer-contact-content-wrapper justify-content-center justify-content-lg-start">
                     <a href="mailto:AniEduWeb@gmail.com" class="text-dark contact-socmed top-footer-socmed"><i class="fas fa-envelope"></i></a>
-                    <a href="https://www.instagram.com/michella.website/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
+                    <a href="https://www.instagram.com/website.aniedu/" class="text-dark contact-socmed top-footer-socmed"><i class="fab fa-instagram-square pl-3"></i></a>
                 </div>
             </div>
 
