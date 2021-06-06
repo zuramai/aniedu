@@ -36,7 +36,7 @@ class QuestionSeeder extends Seeder
                 'type' => 'Aljabar'
             ],
             [
-                'question' => 'Hasil dari (4x)2 adalah... ',
+                'question' => 'Hasil dari (4x)² adalah... ',
                 'type' => 'Aljabar'
             ],
             [
@@ -52,7 +52,7 @@ class QuestionSeeder extends Seeder
                 'type' => 'Aljabar'
             ],
             [
-                'question' => 'Jika x = 25 berapakah jumlah x yang benar? ',
+                'question' => 'Jika x = 2⁵ berapakah jumlah x yang benar? ',
                 'type' => 'Aljabar'
             ],
             [
@@ -72,7 +72,7 @@ class QuestionSeeder extends Seeder
                 'type' => 'Aljabar'
             ],
             [
-                'question' => 'Hasil dari (6x2 + x – 5) : (x + 1) adalah...',
+                'question' => 'Hasil dari (6x² + x – 5) : (x + 1) adalah...',
                 'type' => 'Aljabar'
             ],
             [

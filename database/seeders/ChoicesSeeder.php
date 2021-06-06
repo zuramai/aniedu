@@ -123,9 +123,9 @@ class ChoicesSeeder extends Seeder
             ['question_id' => 20-15, 'answer' => '7x + 5y ', 'is_correct' => false],
             // ==============
             ['question_id' => 21-15, 'answer' => '16x ', 'is_correct' => false],
-            ['question_id' => 21-15, 'answer' => '4x2 ', 'is_correct' => false],
-            ['question_id' => 21-15, 'answer' => '8x2 ', 'is_correct' => false],
-            ['question_id' => 21-15, 'answer' => '16x2 ', 'is_correct' => true],
+            ['question_id' => 21-15, 'answer' => '4x²', 'is_correct' => false],
+            ['question_id' => 21-15, 'answer' => '8x²', 'is_correct' => false],
+            ['question_id' => 21-15, 'answer' => '16x²', 'is_correct' => true],
             // ==============
             ['question_id' => 22-15, 'answer' => '25 ', 'is_correct' => true],
             ['question_id' => 22-15, 'answer' => 'y + x ', 'is_correct' => false],
@@ -134,13 +134,13 @@ class ChoicesSeeder extends Seeder
             // ==============
             ['question_id' => 23-15, 'answer' => 'x + x + x = 3x ', 'is_correct' => false],
             ['question_id' => 23-15, 'answer' => 'y . y = y2 ', 'is_correct' => false],
-            ['question_id' => 23-15, 'answer' => '(x – y)2 = x2 – xy + y2 ', 'is_correct' => true],
-            ['question_id' => 23-15, 'answer' => '(x – y)(x + y) = x2 – y2 ', 'is_correct' => false],
+            ['question_id' => 23-15, 'answer' => '(x – y)² = x² – xy + y² ', 'is_correct' => true],
+            ['question_id' => 23-15, 'answer' => '(x – y)(x + y) = x² – y² ', 'is_correct' => false],
             // ==============
-            ['question_id' => 24-15, 'answer' => '(x + y)2 = x2 + 2xy + y2 ', 'is_correct' => true],
+            ['question_id' => 24-15, 'answer' => '(x + y)² = x² + 2xy + y² ', 'is_correct' => true],
             ['question_id' => 24-15, 'answer' => 'x + x + x + x = 4 + x', 'is_correct' => false],
             ['question_id' => 24-15, 'answer' => 'y . y . y = 3y ', 'is_correct' => false],
-            ['question_id' => 24-15, 'answer' => 'x2 – y2 = x2 – 2xy + y2 ', 'is_correct' => false],
+            ['question_id' => 24-15, 'answer' => 'x² – y² = x² – 2xy + y² ', 'is_correct' => false],
             // ==============
             ['question_id' => 25-15, 'answer' => '16 ', 'is_correct' => false],
             ['question_id' => 25-15, 'answer' => '32 ', 'is_correct' => true],
@@ -162,10 +162,10 @@ class ChoicesSeeder extends Seeder
             ['question_id' => 28-15, 'answer' => '3x ', 'is_correct' => false],
             ['question_id' => 28-15, 'answer' => '3xy ', 'is_correct' => false],
             // ==============
-            ['question_id' => 29-15, 'answer' => '6x2 + 6x – 5 ', 'is_correct' => false],
-            ['question_id' => 29-15, 'answer' => '6x2- 6x - 5 ', 'is_correct' => false],
-            ['question_id' => 29-15, 'answer' => '6x2- 5x - 6 ', 'is_correct' => false],
-            ['question_id' => 29-15, 'answer' => '6x2 + 5x - 6 ', 'is_correct' => true],
+            ['question_id' => 29-15, 'answer' => '6x² + 6x – 5 ', 'is_correct' => false],
+            ['question_id' => 29-15, 'answer' => '6x²- 6x - 5 ', 'is_correct' => false],
+            ['question_id' => 29-15, 'answer' => '6x²- 5x - 6 ', 'is_correct' => false],
+            ['question_id' => 29-15, 'answer' => '6x² + 5x - 6 ', 'is_correct' => true],
             // ==============
             ['question_id' => 30-15, 'answer' => '6x – 1 ', 'is_correct' => false],
             ['question_id' => 30-15, 'answer' => '6x + 1 ', 'is_correct' => false],
