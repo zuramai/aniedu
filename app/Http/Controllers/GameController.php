@@ -42,8 +42,10 @@ class GameController extends Controller
     }
 
     public function play(Request $request) {
+        $subject = $request->exists('subject') ? $request->subject : 'Aljabar';
+
         $questions = Question::with('choices')
-                        ->where('type','Aljabar')->take(10)->inRandomOrder()->get();
+                        ->where('type',$subject)->take(10)->inRandomOrder()->get();
         $lastPlay = Play::where('user_id', Auth::user()->id)->orderBy('created_at','desc')->first();
 
         return view('game.play', compact('questions', 'lastPlay'));

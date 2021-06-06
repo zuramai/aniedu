@@ -199,7 +199,7 @@ __webpack_require__.r(__webpack_exports__);
     return {
       question: {},
       score: 0,
-      score_per_question: 10,
+      score_per_question: 2,
       time_left: 60
     };
   },

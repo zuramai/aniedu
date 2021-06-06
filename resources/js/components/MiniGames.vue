@@ -36,7 +36,7 @@ export default {
     data: () => ({
         question: {},
         score: 0,
-        score_per_question: 10,
+        score_per_question: 2,
         time_left: 60
     }),
     methods:{

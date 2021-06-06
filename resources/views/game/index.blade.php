@@ -23,7 +23,12 @@
                         <h1 class='text-white'>Welcome, {{ Auth::user()->name }}</h1>
                         <h1 class='text-4xl text-gray-300'>Let's Play</h1>
                         
-                        <a href="{{ route('game.play') }}" class='btn btn-primary mt-48 inline-block'>Start</a>
+                        <div class='mt-24 mb-10'>
+                            <a href="{{ route('game.play', ['subject' => 'Aljabar']) }}" class='btn btn-primary mt-48 px-32 '>Start Aljabar</a>
+                        </div>
+                        <div>
+                            <a href="{{ route('game.play', ['subject' => 'Pecahan']) }}" class='btn btn-primary mt-48 '>Start Pecahan</a>
+                        </div>
                     </div>
                 </div>
             </div>
