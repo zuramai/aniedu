@@ -23,7 +23,7 @@ class ShopItemSeeder extends Seeder
             [
                 'name' => '30s Time',
                 'max_buy' => 100,
-                'price' => 200
+                'price' => 100
             ],
             [
                 'name' => 'Avatar 1',

@@ -100,10 +100,10 @@ class GameController extends Controller
 
 
         // Add gold if the score is 100
-        if($lastPlay->score >= 100) {
-            $user->gold += 50;
+        // if($lastPlay->score >= 100) {
+            $user->gold += $lastPlay->score/2;
             $user->save();
-        }
+        // }
 
         return response()->json(['success' => true, 'score' => $score], 201);
         
@@ -137,6 +137,7 @@ class GameController extends Controller
             $user->nyawa++;
         } else if($item->id == 2) {
             // 30 detik time dibeli
+            $user->time += 30;
         } else if($item->id == 3) {
             $user->avatar_url = "2.png";
         } else if($item->id == 4) {

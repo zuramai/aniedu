@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->integer('gold')->default(0);
             $table->integer('nyawa')->default(3);
+            $table->integer('time')->default(60);
             $table->string('avatar_url')->nullable();
             $table->enum('gender', ['M','F'])->nullable();
             $table->rememberToken();
