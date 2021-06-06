@@ -7,6 +7,7 @@
 #board {
     background-image: url('./../images/bg/board.png');
     min-height: 100vh;
+    height:100%;
     padding: 3rem;
     background-size: cover;
 }

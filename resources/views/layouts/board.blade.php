@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Play</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,6 +24,7 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        @stack('styles')
     </head>
     <body class="board-layout">
         <div id="app">

@@ -5,6 +5,9 @@
  */
 
 window.Vue = require('vue').default;
+import Vue from 'vue';
+import Vuex from 'vuex'
+import store from './store'
 
 /**
  * The following block of code may be used to automatically register your
@@ -14,12 +17,15 @@ window.Vue = require('vue').default;
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
+Vue.use(Vuex)
+
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('game-play', require('./components/GamePlay.vue').default);
 Vue.component('mini-games', require('./components/MiniGames.vue').default);
+Vue.component('nyawa', require('./components/Nyawa.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -28,4 +34,5 @@ Vue.component('mini-games', require('./components/MiniGames.vue').default);
 
 const app = new Vue({
     el: '#app',
+    store,
 });

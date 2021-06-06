@@ -38,11 +38,11 @@ Route::post('sign-up', [SignUpController::class, 'signUpPost']);
 
 Route::post('logout', [AuthController::class, 'logout']);
 
-
 Route::group(['prefix' => '/game', 'middleware' => 'auth'], function() {
     Route::get('/', function() {
         return redirect()->route('game.home');
     });
+    Route::get('/gameover', [GameController::class, 'gameover']);
     Route::get('/choose-gender', [GameController::class, 'chooseGender'])->name('game.chooseGender');
     Route::post('/choose-gender', [GameController::class, 'setGender']);
     

@@ -43,7 +43,7 @@ class GameController extends Controller
 
     public function play(Request $request) {
         $questions = Question::with('choices')
-                        ->where('type','Aljabar')->take(10)->get();
+                        ->where('type','Aljabar')->take(10)->inRandomOrder()->get();
         $lastPlay = Play::where('user_id', Auth::user()->id)->orderBy('created_at','desc')->first();
 
         return view('game.play', compact('questions', 'lastPlay'));
@@ -52,6 +52,10 @@ class GameController extends Controller
     public function minigames(Request $request) {
         $lastPlay = Play::where('type','normal')->where('user_id',Auth::user()->id)->orderBy('created_at','desc')->first();
         return view('game.minigames', compact('lastPlay'));
+    }
+
+    public function gameover() {
+        return view('game.gameover');
     }
 
     public function storeAnswers(Request $request) {

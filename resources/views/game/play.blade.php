@@ -12,16 +12,10 @@
                 <p class='text-lg '> Score: {{ $lastPlay ? $lastPlay->score : 0 }}</p>
             </div>
         </div>
-        <div class="lifes flex mt-10 sm:mt-0 gap-3">
-            @for($i=1;$i<=5;$i++)
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-heart-fill  {{ $i <= Auth::user()->nyawa ? 'text-red-500' : '' }}" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-            </svg>
-            @endfor
-        </div>
+        <Nyawa start="{{ Auth::user()->nyawa }}"/>
     </div>
     <div class="container mx-auto pt-32">
-        <game-play question-list="{{ json_encode($questions) }}" user_id="{{Auth::user()->id}}"/>
+        <game-play question-list="{{ json_encode($questions) }}" user_id="{{Auth::user()->id}}" start-nyawa="{{ Auth::user()->nyawa }}"/>
     </div>
 </div>
 

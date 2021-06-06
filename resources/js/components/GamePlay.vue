@@ -19,6 +19,10 @@ export default {
         },
         user_id: {
             required: true
+        },
+        startNyawa: {
+            required: false,
+            default: 3
         }
     },
     data: () => ({
@@ -29,10 +33,8 @@ export default {
         userAnswers: []
     }),
     mounted() {
+        this.$store.commit("UPDATE_NYAWA", this.startNyawa)
         this.questions = JSON.parse(this.questionList)
-        console.log(this.questions)
-
-        
         setInterval(() => {
             if(!this.countdown) {
                 this.storeAnswers();
@@ -43,6 +45,10 @@ export default {
     },
     methods: {
         chooseAnswer(questionID, choice_id,is_correct) {
+            if(!is_correct) this.$store.commit("MINUS_NYAWA")
+
+            if(this.$store.state.nyawa == 0) window.location = "/game/gameover"
+
             this.userAnswers.push({choice_id, is_correct});
             
             this.currentQuestionNumber++;

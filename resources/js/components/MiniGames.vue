@@ -1,5 +1,5 @@
 <template>
-    <div class='minigames'>
+    <div class='minigames pb-32'>
         <div class="soal text-white text-center mt-16">
             <h1>{{ question.number1 }} x {{ question.number2 }}</h1>
         </div>
@@ -10,7 +10,7 @@
         </div>
         <div class="time-wrapper">
             <img src="/images/illustration/waktu.png" class='image-waktu'>
-            <div class="timebar">
+            <div class="timebar ">
                 <div class="progress-time" :style="{ width: `${time_left/60*100}%`}"></div>
             </div>
         </div>
@@ -31,12 +31,12 @@ export default {
                 this.storeScore();
                 clearInterval(interval);
             }
-        }, 10)
+        }, 100)
     },
     data: () => ({
         question: {},
         score: 0,
-        score_per_question: 2,
+        score_per_question: 10,
         time_left: 60
     }),
     methods:{
@@ -98,7 +98,7 @@ export default {
         display: flex;
         align-items: center;
         position: absolute;
-        bottom: 3rem;
+        bottom: 5rem;
         left: 0;
         right: 0;
         width: 80%;
