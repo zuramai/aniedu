@@ -15,6 +15,6 @@
     </div>
     <h1 class='text-white text-center'>Mini Games</h1>
 
-    <mini-games user="{{ Auth::user()->id }}"/>
+    <mini-games user="{{ Auth::user()->id }}" subject="{{ Request::get('subject') }}"/>
 </div>
 @endsection

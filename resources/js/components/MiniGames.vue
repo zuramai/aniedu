@@ -19,7 +19,8 @@
 <script>
 export default {
     props: {
-        user: String
+        user: String,
+        subject: String
     },
     mounted() {
         this.generateQuestion();
@@ -79,13 +80,14 @@ export default {
                 },
                 body: JSON.stringify({
                     user_id: this.user,
-                    score: this.score
+                    score: this.score,
+                    subject: this.subject
                 })
             })
             .then(res => res.json())
             .then(data => {
                 console.log(data)
-                window.location = "/game/leaderboard"
+                window.location = "/game/leaderboard?subject="+this.subject
             });
         }
         

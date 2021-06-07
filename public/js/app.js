@@ -65,6 +65,9 @@ __webpack_require__.r(__webpack_exports__);
     questionList: {
       type: String
     },
+    subject: {
+      required: true
+    },
     user_id: {
       required: true
     },
@@ -113,6 +116,8 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     storeAnswers: function storeAnswers() {
+      var _this2 = this;
+
       console.log('store');
       fetch('/api/store-answers', {
         method: 'POST',
@@ -128,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
         return res.json();
       }).then(function (data) {
         console.log(data);
-        window.location = "/game/minigames?ref=play";
+        window.location = "/game/minigames?subject=" + _this2.subject;
       });
     }
   },
@@ -178,7 +183,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
-    user: String
+    user: String,
+    subject: String
   },
   mounted: function mounted() {
     var _this = this;
@@ -237,6 +243,8 @@ __webpack_require__.r(__webpack_exports__);
       this.generateQuestion();
     },
     storeScore: function storeScore() {
+      var _this2 = this;
+
       fetch('/api/minigames', {
         method: 'POST',
         mode: 'same-origin',
@@ -245,13 +253,14 @@ __webpack_require__.r(__webpack_exports__);
         },
         body: JSON.stringify({
           user_id: this.user,
-          score: this.score
+          score: this.score,
+          subject: this.subject
         })
       }).then(function (res) {
         return res.json();
       }).then(function (data) {
         console.log(data);
-        window.location = "/game/leaderboard";
+        window.location = "/game/leaderboard?subject=" + _this2.subject;
       });
     }
   }

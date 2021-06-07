@@ -70,7 +70,8 @@ class GameController extends Controller
         $play = Play::create([
             'type' => 'normal',
             'score' => $score,
-            'user_id' => $request->user_id
+            'user_id' => $request->user_id,
+            'subject' => $request->subject
         ]);
         $i = 0;
         while($i < count($answers)) {
@@ -113,8 +114,13 @@ class GameController extends Controller
         $play_count = Play::where('user_id', Auth::user()->id)->where('type','normal')->count();
         return view('game.achievements', compact('play_count'));
     }
-    public function leaderboard() {
-        $plays = Play::with('user')->select(DB::raw('MAX(score) as max_score'), 'user_id','score')->where('type', 'normal')->orderBy('max_score','desc')->groupBy('user_id')->take(10)->get();
+    public function leaderboard(Request $request) {
+        $subject = $request->get('subject');
+
+        $plays = Play::with('user')->select(DB::raw('MAX(score) as max_score'), 'user_id','score')->where('type', 'normal');
+        if($subject) $plays->where('subject', $subject);
+        $plays = $plays->orderBy('max_score','desc')->groupBy('user_id')->take(10)->get();
+        
         return view('game.leaderboard', compact('plays'));   
     }
     public function shop() {

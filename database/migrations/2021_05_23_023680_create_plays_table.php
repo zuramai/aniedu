@@ -16,6 +16,7 @@ class CreatePlaysTable extends Migration
         Schema::create('plays', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
+            $table->enum('subject', ['Aljabar','Pecahan'])->default('Aljabar');
             $table->enum('type', ['minigames','normal']);
             $table->integer('score');
             $table->timestamps();

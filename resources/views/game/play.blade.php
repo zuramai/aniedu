@@ -15,7 +15,7 @@
         <Nyawa start="{{ Auth::user()->nyawa }}"/>
     </div>
     <div class="container mx-auto pt-32">
-        <game-play question-list="{{ json_encode($questions) }}" user_id="{{Auth::user()->id}}" start-nyawa="{{ Auth::user()->nyawa }}"/>
+        <game-play subject="{{ Request::get('subject') }}" time="{{Auth::user()->time}}" question-list="{{ json_encode($questions) }}" user_id="{{Auth::user()->id}}" start-nyawa="{{ Auth::user()->nyawa }}"/>
     </div>
 </div>
 

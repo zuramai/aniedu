@@ -17,6 +17,9 @@ export default {
         questionList: {
             type: String
         },
+        subject: {
+            required: true
+        },
         user_id: {
             required: true
         },
@@ -72,7 +75,7 @@ export default {
             .then(res => res.json())
             .then(data => {
                 console.log(data)
-                window.location = "/game/minigames?ref=play"
+                window.location = "/game/minigames?subject="+this.subject
             });
         }
     },
